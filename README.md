@@ -4,6 +4,13 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+Dynamic+Web+Apps...;Turning+Data+into+Insights...;Frontend+Developer;Passionate+Data+Analyst" alt="Typing SVG" />
   </a>
+  
+  <br>
+
+  <a href="https://hazemelerefey.github.io">
+    <img src="https://img.shields.io/badge/🌐%20View%20My%20Live%20Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio link" />
+  </a>
+  <br><br>
 </div>
 
 ## 🚀 About Me
