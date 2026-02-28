@@ -19,9 +19,14 @@ I'm a passionate developer specializing in building dynamic web applications and
 </p>
 
 ### 🌟 Featured Projects
-- [**Project 1 Placeholder**](https://github.com/hazemelerefey) - A brief description of this frontend or data analytics project.
-- [**Project 2 Placeholder**](https://github.com/hazemelerefey) - A brief description of this frontend or data analytics project.
-- [**Project 3 Placeholder**](https://github.com/hazemelerefey) - A brief description of this frontend or data analytics project.
+- [**CodeCommerce Dashboard**](https://github.com/hazemelerefey/frontend-ecommerce-dashboard) - A comprehensive admin dashboard for e-commerce mapping tracking sales and user analytics mapping.
+- [**CasaSearch Property Finder**](https://github.com/hazemelerefey/frontend-realestate-finder) - Real-estate platform integrating React Leaflet maps and advanced property filtering.
+- [**Global Sales Forecasting**](https://github.com/hazemelerefey/analytics-sales-forecasting) - Time-series forecasting with ARIMA model to project multi-regional E-commerce sales.
+- [**Brand Sentiment Analysis**](https://github.com/hazemelerefey/analytics-social-sentiment) - NLP VADER classification scraping thousands of social media posts measuring brand health.
+- [**Healthcare Wait Time Optimizer**](https://github.com/hazemelerefey/analytics-healthcare-waits) - SQL-driven Power BI dashboard visualizing ER patient journey bottlenecks.
+
+---
+_Explore the rest of my repositories to see more projects spanning agile Kanban boards to Machine Learning customer churn predictors._
 
 ### 📈 GitHub Stats
 
