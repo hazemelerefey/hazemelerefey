@@ -7,8 +7,9 @@
   
   <br>
 
-  <a href="https://hazemelerefey.github.io">
-    <img src="https://img.shields.io/badge/🌐%20View%20My%20Live%20Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio link" />
+  <br>
+  <a href="https://github.com/hazemelerefey/Hazem-Portfolio-Masterpiece">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=140&text=⭐%20EXPLORE%20THE%20MASTERPIECE%20⭐&fontSize=35&animation=twinkling&desc=Dive%20into%20my%20ultimate%203D%20%26%20Frontend%20Experience&descSize=18&descAlignY=70&descAlign=50" alt="Masterpiece Repository Banner" />
   </a>
   <br><br>
 </div>
