@@ -8,7 +8,7 @@
   <br>
 
   <a href="https://hazemelerefey.github.io">
-    <img src="https://img.shields.io/badge/%E2%AD%90_EXPLORE_THE_MASTERPIECE_%E2%AD%90-Visit_My_Live_Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e&color=8A2BE2" alt="Explore The Masterpiece" height="50" />
+    <img src="https://img.shields.io/badge/VISIT_MY_WEBSITE-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit My Website" height="45" />
   </a>
   <br><br>
 </div>
