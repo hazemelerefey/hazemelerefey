@@ -8,8 +8,8 @@
   <br>
 
   <br>
-  <a href="https://github.com/hazemelerefey/Hazem-Portfolio-Masterpiece">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=140&text=⭐%20EXPLORE%20THE%20MASTERPIECE%20⭐&fontSize=35&animation=twinkling&desc=Dive%20into%20my%20ultimate%203D%20%26%20Frontend%20Experience&descSize=18&descAlignY=70&descAlign=50" alt="Masterpiece Repository Banner" />
+  <a href="https://hazemelerefey.github.io/Hazem-Portfolio-Masterpiece/">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=140&text=%E2%AD%90%20EXPLORE%20THE%20MASTERPIECE%20%E2%AD%90&fontSize=35&animation=twinkling&desc=Dive%20into%20my%20ultimate%203D%20%26%20Frontend%20Experience&descSize=18&descAlignY=70&descAlign=50" alt="Masterpiece Live Site Banner" />
   </a>
   <br><br>
 </div>
