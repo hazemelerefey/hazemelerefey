@@ -1,11 +1,11 @@
 <div align="center">
-  <img width="100%" alt="Nebula Profile — Animated 3D Universe" src="https://raw.githubusercontent.com/hazemelerefey/nebula-profile/main/public/assets/nebula-banner.svg" />
+  <img width="100%" alt="Hazem Elerefy banner" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/linkedin_banner_v2.png" />
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/hazemelerefey"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://hazemelerefey.github.io/nebula-profile/"><img src="https://img.shields.io/badge/Live%20Universe-00f3ff?style=for-the-badge&logo=rocket&logoColor=black" alt="Live Universe" /></a>
-  <a href="mailto:hazemelerefey@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/hazemelerefy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://hazemelerefey.github.io/MyPortfolio-/"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:hazemawed53@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
 
 <div align="center">
@@ -15,12 +15,30 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hazemelerefey&label=Profile%20Views&color=0ea5e9&style=flat" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/hazemelerefey?label=Followers&style=flat&color=2563eb" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/last-commit/hazemelerefey/hazemelerefey?label=Profile%20Repo%20Updated&style=flat&color=0f172a" alt="Last commit" />
 </p>
 
 ---
 
+## 🌌 FEATURED EXPERIENCE: NEBULA PROFILE
+
+<p align="center">
+  <a href="https://hazemelerefey.github.io/nebula-profile/">
+    <img src="https://raw.githubusercontent.com/hazemelerefey/nebula-profile/main/public/assets/nebula-banner.svg" width="100%" alt="Nebula Profile — Animated 3D Universe"/>
+  </a>
+</p>
+
+<div align="center">
+
+> **A real-time 3D cinematic portfolio experiment.** Built with Three.js, custom GLSL shaders, and React. It features a futuristic glassmorphic HUD, an integrated arcade game, and post-processing visual effects.
+
+[**▶ LAUNCH UNIVERSE**](https://hazemelerefey.github.io/nebula-profile/) &nbsp;·&nbsp; [**📁 VIEW REPOSITORY**](https://github.com/hazemelerefey/nebula-profile)
+
+</div>
+
+---
+
 ## / about
+
 I work where **analytics, business thinking, and interface design** overlap.
 
 My best work usually looks like this:
@@ -33,6 +51,7 @@ So whether the job is **SQL + Power BI**, **Python analysis**, or a **React/Tail
 ---
 
 ## / current focus
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -59,6 +78,7 @@ So whether the job is **SQL + Power BI**, **Python analysis**, or a **React/Tail
 ---
 
 ## / toolkit
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,react,js,html,css,tailwind,git,github,vscode" alt="Skill icons" />
 </div>
@@ -84,21 +104,9 @@ Sweet spot        → Dashboards, BI products, analytics apps, decision-support 
 ---
 
 ## / featured work
+
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [Nebula 3D Universe](https://github.com/hazemelerefey/nebula-profile)
-**Interactive 3D Portfolio + GLSL Shaders**
-
-A cinematic 3D universe built with Three.js and custom Shaders. Features a reactive mini-game and post-processing effects.
-
-**Why it matters**
-- demonstrates advanced WebGL & shader proficiency
-- integrates complex state management with 3D rendering
-- high-performance interactive visual experience
-
-</td>
 <td width="50%" valign="top">
 
 ### [Healthcare Wait-Time Analytics](https://github.com/hazemelerefey/analytics-healthcare-waits)
@@ -107,25 +115,26 @@ A cinematic 3D universe built with Three.js and custom Shaders. Features a react
 A healthcare operations project focused on waitlists, specialty demand, and bottleneck visibility.
 
 **Why it matters**
-- translates raw operational data into planning signals
+- translates raw operational data into clearer planning signals
 - highlights service pressure and wait-time patterns
-- built for real-world decision-making
+- built in a format decision-makers can actually use
+
+</td>
+<td width="50%" valign="top">
+
+### [Customer Churn Prediction](https://github.com/hazemelerefey/analytics-churn-prediction)
+**Python + machine learning + retention analysis**
+
+A churn project built around identifying risk signals and retention opportunities from customer behavior.
+
+**Why it matters**
+- combines predictive thinking with business context
+- moves beyond reporting into action-oriented insight
+- strong fit for analytics + product decision workflows
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Customer Churn Prediction](https://github.com/hazemelerefey/analytics-churn-prediction)
-**Python + ML + retention analysis**
-
-A churn project identifying risk signals and retention opportunities from customer behavior.
-
-**Why it matters**
-- combines predictive thinking with business context
-- action-oriented insight for product decision workflows
-
-</td>
 <td width="50%" valign="top">
 
 ### [Real Estate Value Drivers](https://github.com/hazemelerefey/analytics-realestate-drivers)
@@ -135,7 +144,21 @@ An analysis project focused on what actually drives property value and market be
 
 **Why it matters**
 - useful for comparing pricing factors across listings
+- shows structured exploratory analysis and reasoning
 - turns market noise into interpretable drivers
+
+</td>
+<td width="50%" valign="top">
+
+### [Portfolio Website](https://hazemelerefey.github.io/MyPortfolio-/)
+**Frontend presentation + personal brand UI**
+
+A visual portfolio space to present work, strengths, and project direction with a cleaner frontend lens.
+
+**Why it matters**
+- shows product presentation, not just technical output
+- reinforces frontend taste alongside analytics work
+- creates a stronger bridge between code and communication
 
 </td>
 </tr>
@@ -144,6 +167,7 @@ An analysis project focused on what actually drives property value and market be
 ---
 
 ## / what I like building
+
 <div align="center">
 
 | Track | What I enjoy solving |
@@ -158,6 +182,7 @@ An analysis project focused on what actually drives property value and market be
 ---
 
 ## / github pulse
+
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=hazemelerefey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=hazemelerefey&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" />
@@ -170,6 +195,7 @@ An analysis project focused on what actually drives property value and market be
 ---
 
 ## / contribution animation
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg" />
@@ -181,6 +207,7 @@ An analysis project focused on what actually drives property value and market be
 ---
 
 ## / working style
+
 ```text
 Think clearly.
 Design cleanly.
@@ -189,4 +216,3 @@ Ship useful things.
 ```
 
 If you’re into **analytics dashboards**, **Power BI work**, **SQL/Python analysis**, or **frontend-heavy data products**, take a look around the repos or reach out.
-
