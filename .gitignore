@@ -1,0 +1,4 @@
+```yaml
+# Configuration and workflow files
+.github/workflows/snake.yml
+```
