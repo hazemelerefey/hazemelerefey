@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" role="img" aria-label="Animated divider">
+  <defs>
+    <linearGradient id="divLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#f472b6" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="divG" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="divPath" d="M 0 30 L 1200 30"/>
+  </defs>
+
+  <!-- main animated waveform -->
+  <path d="M 0 30
+           Q 100 8, 200 30 T 400 30 T 600 30 T 800 30 T 1000 30 T 1200 30"
+        fill="none" stroke="url(#divLine)" stroke-width="1.6" filter="url(#divG)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M 0 30 Q 100 8, 200 30 T 400 30 T 600 30 T 800 30 T 1000 30 T 1200 30;
+              M 0 30 Q 100 52, 200 30 T 400 30 T 600 30 T 800 30 T 1000 30 T 1200 30;
+              M 0 30 Q 100 8, 200 30 T 400 30 T 600 30 T 800 30 T 1000 30 T 1200 30"/>
+  </path>
+
+  <!-- secondary subtle line -->
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#divLine)" stroke-width=".6" opacity=".5"/>
+
+  <!-- traveling photons -->
+  <circle r="3" fill="#22d3ee" filter="url(#divG)">
+    <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#divPath"/></animateMotion>
+  </circle>
+  <circle r="2.4" fill="#a78bfa" filter="url(#divG)">
+    <animateMotion dur="5s" begin="-1.6s" repeatCount="indefinite"><mpath href="#divPath"/></animateMotion>
+  </circle>
+  <circle r="2" fill="#f472b6" filter="url(#divG)">
+    <animateMotion dur="5s" begin="-3.2s" repeatCount="indefinite"><mpath href="#divPath"/></animateMotion>
+  </circle>
+
+  <!-- node markers -->
+  <g fill="#0b0427" stroke="#a78bfa">
+    <circle cx="160"  cy="30" r="3"/>
+    <circle cx="600"  cy="30" r="4"/>
+    <circle cx="1040" cy="30" r="3"/>
+  </g>
+</svg>

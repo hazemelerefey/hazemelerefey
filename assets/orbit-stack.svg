@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="Tech stack — orbital visualization">
+  <defs>
+    <radialGradient id="obg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%"   stop-color="#150a36"/>
+      <stop offset="60%"  stop-color="#08081e"/>
+      <stop offset="100%" stop-color="#03030d"/>
+    </radialGradient>
+    <linearGradient id="oR1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="oR2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="oR3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#f472b6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f472b6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="og" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="og2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <!-- Reusable orbit paths so chips can attach via mpath -->
+    <path id="path1" d="M 170 0 A 170 55 0 1 1 -170 0 A 170 55 0 1 1 170 0"/>
+    <path id="path2" d="M 290 0 A 290 85 0 1 0 -290 0 A 290 85 0 1 0 290 0"/>
+    <path id="path3" d="M 400 0 A 400 130 0 1 1 -400 0 A 400 130 0 1 1 400 0"/>
+
+    <g id="ostar"><circle r="1" fill="#cbd5e1"/></g>
+  </defs>
+
+  <rect width="1200" height="540" fill="url(#obg)"/>
+
+  <!-- ambient glows -->
+  <circle cx="600" cy="290" r="220" fill="#7c3aed" opacity=".22" filter="url(#og2)">
+    <animate attributeName="opacity" values=".15;.3;.15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="220" cy="120" r="80" fill="#22d3ee" opacity=".18" filter="url(#og2)"/>
+  <circle cx="1000" cy="420" r="80" fill="#f472b6" opacity=".18" filter="url(#og2)"/>
+
+  <!-- star field -->
+  <g opacity=".7">
+    <use href="#ostar" x="80"  y="60"><animate attributeName="opacity" values=".3;1;.3" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="160" y="120"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="280" y="80"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="380" y="40"><animate attributeName="opacity" values=".1;.8;.1" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="500" y="80"><animate attributeName="opacity" values=".2;1;.2" dur="4.1s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="640" y="50"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="780" y="110"><animate attributeName="opacity" values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="900" y="60"><animate attributeName="opacity" values=".1;.8;.1" dur="2.2s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="1020" y="100"><animate attributeName="opacity" values=".2;1;.2" dur="3.3s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="1140" y="40"><animate attributeName="opacity" values=".1;.9;.1" dur="4.4s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="60"  y="450"><animate attributeName="opacity" values=".3;1;.3" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="160" y="490"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="320" y="510"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="500" y="490"><animate attributeName="opacity" values=".1;.8;.1" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="700" y="520"><animate attributeName="opacity" values=".2;1;.2" dur="4.1s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="900" y="475"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#ostar" x="1080" y="510"><animate attributeName="opacity" values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/></use>
+  </g>
+
+  <!-- title -->
+  <g transform="translate(600 50)" text-anchor="middle">
+    <text fill="#94a3b8" font-size="11" letter-spacing="6" y="0" font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace">/// THE STACK · ORBITAL VIEW</text>
+    <text fill="#e2e8f0" font-size="22" letter-spacing="3" font-weight="700" y="28" font-family="Inter, system-ui, sans-serif">Tools that orbit my workflow</text>
+  </g>
+
+  <!-- ORBIT SYSTEM -->
+  <g transform="translate(600 290)">
+
+    <!-- Outer dashed boundary -->
+    <circle r="450" fill="none" stroke="#a78bfa" stroke-opacity=".18" stroke-dasharray="3 8"/>
+
+    <!-- Visual ring guides (drawn from the same paths so they align with chip orbits) -->
+    <use href="#path1" fill="none" stroke="url(#oR1)" stroke-width="1.4"/>
+    <use href="#path2" fill="none" stroke="url(#oR2)" stroke-width="1.2"/>
+    <use href="#path3" fill="none" stroke="url(#oR3)" stroke-width="1.1"/>
+
+    <!-- RING 1 (cyan) — Frontend core. 3 chips evenly spaced on path1. dur=20s -->
+    <g>
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#0b0427" stroke="#22d3ee"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#22d3ee" font-weight="600">React</text>
+      <animateMotion dur="20s" repeatCount="indefinite" rotate="0"><mpath href="#path1"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-46" y="-15" width="92" height="30" rx="15" fill="#0b0427" stroke="#22d3ee"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#22d3ee" font-weight="600">TypeScript</text>
+      <animateMotion dur="20s" begin="-6.667s" repeatCount="indefinite" rotate="0"><mpath href="#path1"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#0b0427" stroke="#22d3ee"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#22d3ee" font-weight="600">Tailwind</text>
+      <animateMotion dur="20s" begin="-13.334s" repeatCount="indefinite" rotate="0"><mpath href="#path1"/></animateMotion>
+    </g>
+
+    <!-- RING 2 (violet) — Motion / 3D / Design. 4 chips, dur=28s, reverse direction -->
+    <g>
+      <rect x="-44" y="-15" width="88" height="30" rx="15" fill="#0b0427" stroke="#a78bfa"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#a78bfa" font-weight="600">Three.js</text>
+      <animateMotion dur="28s" repeatCount="indefinite" rotate="0"><mpath href="#path2"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-32" y="-15" width="64" height="30" rx="15" fill="#0b0427" stroke="#a78bfa"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#a78bfa" font-weight="600">GLSL</text>
+      <animateMotion dur="28s" begin="-7s" repeatCount="indefinite" rotate="0"><mpath href="#path2"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-50" y="-15" width="100" height="30" rx="15" fill="#0b0427" stroke="#a78bfa"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#a78bfa" font-weight="600">Framer Motion</text>
+      <animateMotion dur="28s" begin="-14s" repeatCount="indefinite" rotate="0"><mpath href="#path2"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-38" y="-15" width="76" height="30" rx="15" fill="#0b0427" stroke="#a78bfa"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#a78bfa" font-weight="600">Figma</text>
+      <animateMotion dur="28s" begin="-21s" repeatCount="indefinite" rotate="0"><mpath href="#path2"/></animateMotion>
+    </g>
+
+    <!-- RING 3 (magenta) — Data / BI. 5 chips, dur=36s -->
+    <g>
+      <rect x="-44" y="-15" width="88" height="30" rx="15" fill="#0b0427" stroke="#f472b6"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#f472b6" font-weight="600">Power BI</text>
+      <animateMotion dur="36s" repeatCount="indefinite" rotate="0"><mpath href="#path3"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-32" y="-15" width="64" height="30" rx="15" fill="#0b0427" stroke="#f472b6"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#f472b6" font-weight="600">SQL</text>
+      <animateMotion dur="36s" begin="-7.2s" repeatCount="indefinite" rotate="0"><mpath href="#path3"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#0b0427" stroke="#f472b6"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#f472b6" font-weight="600">Python</text>
+      <animateMotion dur="36s" begin="-14.4s" repeatCount="indefinite" rotate="0"><mpath href="#path3"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#0b0427" stroke="#f472b6"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#f472b6" font-weight="600">Pandas</text>
+      <animateMotion dur="36s" begin="-21.6s" repeatCount="indefinite" rotate="0"><mpath href="#path3"/></animateMotion>
+    </g>
+    <g>
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#0b0427" stroke="#f472b6"/>
+      <text text-anchor="middle" y="5" font-family="Inter, sans-serif" font-size="13" fill="#f472b6" font-weight="600">Tableau</text>
+      <animateMotion dur="36s" begin="-28.8s" repeatCount="indefinite" rotate="0"><mpath href="#path3"/></animateMotion>
+    </g>
+
+    <!-- Tracer dots (small, glowing) -->
+    <circle r="4" fill="#22d3ee" filter="url(#og)">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#path1"/></animateMotion>
+    </circle>
+    <circle r="4" fill="#a78bfa" filter="url(#og)">
+      <animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#path2"/></animateMotion>
+    </circle>
+    <circle r="4" fill="#f472b6" filter="url(#og)">
+      <animateMotion dur="13s" repeatCount="indefinite" rotate="auto"><mpath href="#path3"/></animateMotion>
+    </circle>
+
+    <!-- Center core (pulsing) -->
+    <circle r="60" fill="#0b0427" stroke="url(#coreG)" stroke-width="2" filter="url(#og)"/>
+    <circle r="44" fill="#0b0427" stroke="#a78bfa" stroke-opacity=".4"/>
+    <circle r="32" fill="url(#coreG)" opacity=".22">
+      <animate attributeName="opacity" values=".15;.45;.15" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text text-anchor="middle" y="-2" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#22d3ee" letter-spacing="2">UI / UX</text>
+    <text text-anchor="middle" y="14" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" fill="#94a3b8" letter-spacing="2">CORE · v.HZM</text>
+
+  </g>
+
+  <!-- Caption row (legend) -->
+  <g transform="translate(600 510)" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace" font-size="11">
+    <text fill="#22d3ee" x="-280">● FRONTEND CORE</text>
+    <text fill="#a78bfa" x="0">● MOTION / 3D / DESIGN</text>
+    <text fill="#f472b6" x="280">● DATA / BI</text>
+  </g>
+
+  <!-- bracket frame -->
+  <g stroke="#22d3ee" stroke-width="1.4" fill="none" opacity=".55">
+    <polyline points="20,20 20,60 60,60"/>
+    <polyline points="1180,20 1180,60 1140,60"/>
+    <polyline points="20,520 20,480 60,480"/>
+    <polyline points="1180,520 1180,480 1140,480"/>
+  </g>
+</svg>
