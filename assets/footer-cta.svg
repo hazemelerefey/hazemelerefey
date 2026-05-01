@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-label="Open to collaboration">
+  <defs>
+    <radialGradient id="fbg" cx="50%" cy="60%" r="80%">
+      <stop offset="0%"   stop-color="#1a0b3a"/>
+      <stop offset="60%"  stop-color="#0a0a23"/>
+      <stop offset="100%" stop-color="#03030d"/>
+    </radialGradient>
+    <linearGradient id="fGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#22d3ee"/>
+      <stop offset="50%"  stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="fGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#fbg)"/>
+
+  <!-- ambient glows -->
+  <circle cx="220" cy="120" r="120" fill="#22d3ee" opacity=".18" filter="url(#fSoft)">
+    <animate attributeName="opacity" values=".10;.24;.10" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="120" r="120" fill="#f472b6" opacity=".18" filter="url(#fSoft)">
+    <animate attributeName="opacity" values=".10;.24;.10" dur="6s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="120" r="170" fill="#7c3aed" opacity=".22" filter="url(#fSoft)">
+    <animate attributeName="opacity" values=".15;.30;.15" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- twinkling stars -->
+  <g fill="#cbd5e1">
+    <circle cx="60"  cy="40" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="80" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="40" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="50" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="30" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="60" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="40" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="80" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="40" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="70" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="80"  cy="200" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="210" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="200" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="210" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="200" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- transmitting concentric rings (like a beacon) -->
+  <g transform="translate(600 120)" fill="none" stroke="#a78bfa">
+    <circle r="40" stroke-opacity=".7">
+      <animate attributeName="r" values="40;120;40" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".8;0;.8" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" stroke-opacity=".5">
+      <animate attributeName="r" values="40;160;40" dur="4s" begin="-1.3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0;.6" dur="4s" begin="-1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" stroke-opacity=".4">
+      <animate attributeName="r" values="40;200;40" dur="4s" begin="-2.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".4;0;.4" dur="4s" begin="-2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- main message -->
+  <g transform="translate(600 100)" text-anchor="middle">
+    <text font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="6" fill="#94a3b8" y="0">/// SIGNAL · OPEN_TO_COLLAB</text>
+    <text font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" letter-spacing="2" y="40" fill="url(#fGrad)" filter="url(#fGlow)">Let's build something rare.</text>
+    <text font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" letter-spacing="2" y="40" fill="url(#fGrad)">Let's build something rare.</text>
+    <text font-family="Inter, system-ui, sans-serif" font-size="14" letter-spacing="3" y="72" fill="#cbd5e1">FRONTEND  ·  3D / MOTION  ·  UI SYSTEMS  ·  DASHBOARDS</text>
+  </g>
+
+  <!-- bracket frame -->
+  <g stroke="#22d3ee" stroke-width="1.4" fill="none" opacity=".55">
+    <polyline points="20,20 20,60 60,60"/>
+    <polyline points="1180,20 1180,60 1140,60"/>
+    <polyline points="20,220 20,180 60,180"/>
+    <polyline points="1180,220 1180,180 1140,180"/>
+  </g>
+</svg>
