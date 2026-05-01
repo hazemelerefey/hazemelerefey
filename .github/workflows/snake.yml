@@ -3,39 +3,79 @@ name: generate animation
 on:
   # run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "0 */12 * * *"
+
+  # allows manual triggering from the Actions tab
   workflow_dispatch:
-  
-  # run on every push on the master branch
+
+  # also run on every push to main
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    timeout-minutes: 10
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+          node-version: '20'
+
+      # Install tsx so the generator can import the snk TypeScript sources directly.
+      - name: Install tsx
+        run: npm install --no-save --no-audit --no-fund tsx@4
+
+      # Generate the SVGs without using any third-party action.
+      # The script clones Platane/snk locally and pulls contribution data from
+      # a public, unauthenticated API, so no GITHUB_TOKEN scopes are required.
+      - name: Generate snake animation SVGs
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: npx tsx .scripts/generate-snake-svgs.mjs
+
+      # Publish to the `output` branch with plain git, replacing the previous
+      # third-party deploy action which ran on the deprecated node16 runtime.
+      - name: Push SVGs to the output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          test -s dist/github-contribution-grid-snake.svg
+          test -s dist/github-contribution-grid-snake-dark.svg
+
+          STAGE="$(mktemp -d)"
+          cp dist/github-contribution-grid-snake.svg "$STAGE/"
+          cp dist/github-contribution-grid-snake-dark.svg "$STAGE/"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
+            git fetch origin output
+            git checkout -B output origin/output
+          else
+            git checkout --orphan output
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp "$STAGE/github-contribution-grid-snake.svg" .
+          cp "$STAGE/github-contribution-grid-snake-dark.svg" .
+
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: refresh snake animation"
+          git push origin output
