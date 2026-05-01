@@ -188,13 +188,13 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=hazemelerefey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&icon_color=22D3EE&text_color=cbd5e1&rank_icon=github" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hazemelerefey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&icon_color=22D3EE&text_color=cbd5e1&rank_icon=github" alt="GitHub stats"/>
 <img height="170" src="https://streak-stats.demolab.com/?user=hazemelerefey&theme=tokyonight&hide_border=true&background=0b0427&stroke=A78BFA&ring=22D3EE&fire=F472B6&currStreakLabel=A78BFA&sideLabels=cbd5e1&dates=64748b&currStreakNum=22D3EE&sideNums=cbd5e1" alt="GitHub streak"/>
 
 </div>
 
 <div align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top languages"/>
+<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top languages"/>
 </div>
 
 ### ◢ DESIGN METRICS · LIVE PANEL
