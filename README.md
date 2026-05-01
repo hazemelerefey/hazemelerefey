@@ -5,7 +5,7 @@
 -->
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Hazem Elerefy — Frontend Engineer · UI/UX · Motion Design" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/hero.svg" />
+  <img width="100%" alt="Hazem Elerefy — Frontend Engineer · UI/UX · Motion Design" src="assets/hero.svg" />
 </a>
 
 <div align="center">
@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/github/stars/hazemelerefey?style=for-the-badge&color=F472B6&label=STARS&labelColor=0b0427" alt="GitHub stars" />
 </p>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /01 · IDENTITY
 
@@ -71,12 +71,12 @@ that whispers, a portfolio that breathes, a chart that dances when you hover it.
 </tr>
 </table>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /02 · STACK · ORBITAL VIEW
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Tech stack — orbital animation" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/orbit-stack.svg"/>
+  <img width="100%" alt="Tech stack — orbital animation" src="assets/orbit-stack.svg"/>
 </a>
 
 <div align="center">
@@ -101,7 +101,7 @@ that whispers, a portfolio that breathes, a chart that dances when you hover it.
 
 </div>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /03 · FEATURED · NEBULA PROFILE
 
@@ -133,7 +133,7 @@ arcade game, and atmospheric particle systems.
 </tr>
 </table>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /04 · SHOWCASE
 
@@ -182,7 +182,7 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
 </tr>
 </table>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /05 · TELEMETRY
 
@@ -200,7 +200,7 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
 ### ◢ DESIGN METRICS · LIVE PANEL
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Design metrics — telemetry dashboard" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/telemetry.svg"/>
+  <img width="100%" alt="Design metrics — telemetry dashboard" src="assets/telemetry.svg"/>
 </a>
 
 ### ◢ ACTIVITY WAVEFORM
@@ -219,7 +219,7 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
   </picture>
 </div>
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 ## ◢ /06 · PHILOSOPHY
 
@@ -253,10 +253,10 @@ Visual taste serves the message.
 think clearly  ·  design with depth  ·  animate with intention  ·  ship things that feel rare
 ```
 
-<img width="100%" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/divider.svg" alt=""/>
+<img width="100%" src="assets/divider.svg" alt=""/>
 
 <a href="mailto:hazemawed53@gmail.com">
-  <img width="100%" alt="Open to collaboration" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/main/assets/footer-cta.svg"/>
+  <img width="100%" alt="Open to collaboration" src="assets/footer-cta.svg"/>
 </a>
 
 <div align="center">
