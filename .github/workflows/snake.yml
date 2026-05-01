@@ -1,9 +1,13 @@
 name: generate animation
 
 on:
-  # run automatically every 12 hours
-  schedule:
-    - cron: "0 */12 * * *"
+  # The scheduled run is intentionally disabled while the GitHub account is
+  # billing-locked: every cron tick was producing an "All jobs have failed"
+  # email because GitHub refuses to start the job ("The job was not started
+  # because your account is locked due to a billing issue"). Re-enable this
+  # block once billing is unlocked at https://github.com/settings/billing.
+  # schedule:
+  #   - cron: "0 */12 * * *"
 
   # allows manual triggering from the Actions tab
   workflow_dispatch:
