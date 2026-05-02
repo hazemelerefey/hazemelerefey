@@ -38,7 +38,7 @@
 
   <!-- top bar -->
   <g transform="translate(40 36)" font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace">
-    <text fill="#94a3b8" font-size="11" letter-spacing="6">/// LIVE TELEMETRY · DESIGN METRICS</text>
+    <text fill="#94a3b8" font-size="11" letter-spacing="6">/// LIVE TELEMETRY · ANALYTICS WORKBENCH</text>
     <circle cx="180" cy="-4" r="3" fill="#22d3ee">
       <animate attributeName="opacity" values=".3;1;.3" dur="1.6s" repeatCount="indefinite"/>
     </circle>
@@ -51,13 +51,13 @@
 
   <!-- Panel A: SIGNAL — animated waveform -->
   <g transform="translate(40 70)">
-    <rect width="360" height="240" rx="14" fill="#0b0427" stroke="#22d3ee" stroke-opacity=".5"/>
-    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// FRONTEND · SIGNAL</text>
-    <text x="20" y="62" font-family="Inter, sans-serif" font-size="32" font-weight="700" fill="#22d3ee">98.4<tspan font-size="14" fill="#94a3b8">%</tspan></text>
-    <text x="20" y="82" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#cbd5e1" letter-spacing="2">UPTIME · QUALITY · CRAFT</text>
+    <rect width="360" height="240" rx="14" fill="#0b0427" stroke="#f472b6" stroke-opacity=".5"/>
+    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// DATA · SIGNAL</text>
+    <text x="20" y="62" font-family="Inter, sans-serif" font-size="32" font-weight="700" fill="#f472b6">98.4<tspan font-size="14" fill="#94a3b8">%</tspan></text>
+    <text x="20" y="82" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#cbd5e1" letter-spacing="2">CLEAN · TRUSTED · DECISION-READY</text>
 
     <!-- waveform area -->
-    <path fill="url(#cyanFill)" stroke="#22d3ee" stroke-width="1.6" filter="url(#tg)"
+    <path fill="url(#magentaFill)" stroke="#f472b6" stroke-width="1.6" filter="url(#tg)"
           d="M 20 200
              L 50 180 L 80 190 L 110 160 L 140 175 L 170 140 L 200 165
              L 230 130 L 260 155 L 290 120 L 320 145 L 340 130
@@ -70,7 +70,7 @@
     </path>
 
     <!-- Traveling indicator dot -->
-    <circle r="4" fill="#22d3ee" filter="url(#tg)">
+    <circle r="4" fill="#f472b6" filter="url(#tg)">
       <animate attributeName="cx" values="20;340;20" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="200;130;200" dur="6s" repeatCount="indefinite"/>
     </circle>
@@ -79,7 +79,7 @@
   <!-- Panel B: CORE METRICS — animated bars -->
   <g transform="translate(420 70)">
     <rect width="360" height="240" rx="14" fill="#0b0427" stroke="#a78bfa" stroke-opacity=".5"/>
-    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// MOTION · DEPTH · CRAFT</text>
+    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// PIPELINE · CRAFT · METRICS</text>
 
     <!-- 5 vertical bars -->
     <g transform="translate(40 100)">
@@ -89,7 +89,7 @@
           <animate attributeName="height" values="0;100;82;100;90" dur="4s" repeatCount="indefinite"/>
           <animate attributeName="y" values="120;20;38;20;30" dur="4s" repeatCount="indefinite"/>
         </rect>
-        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">UI</text>
+        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">SQL</text>
       </g>
       <g transform="translate(60 0)">
         <rect x="0" y="0" width="36" height="120" rx="6" fill="#0c0631" stroke="#a78bfa" stroke-opacity=".4"/>
@@ -97,7 +97,7 @@
           <animate attributeName="height" values="0;88;112;100;76" dur="4s" begin="-0.4s" repeatCount="indefinite"/>
           <animate attributeName="y" values="120;32;8;20;44" dur="4s" begin="-0.4s" repeatCount="indefinite"/>
         </rect>
-        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">3D</text>
+        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">BI</text>
       </g>
       <g transform="translate(120 0)">
         <rect x="0" y="0" width="36" height="120" rx="6" fill="#0c0631" stroke="#a78bfa" stroke-opacity=".4"/>
@@ -105,7 +105,7 @@
           <animate attributeName="height" values="0;72;90;110;86" dur="4s" begin="-0.8s" repeatCount="indefinite"/>
           <animate attributeName="y" values="120;48;30;10;34" dur="4s" begin="-0.8s" repeatCount="indefinite"/>
         </rect>
-        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">FX</text>
+        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">EDA</text>
       </g>
       <g transform="translate(180 0)">
         <rect x="0" y="0" width="36" height="120" rx="6" fill="#0c0631" stroke="#a78bfa" stroke-opacity=".4"/>
@@ -121,57 +121,57 @@
           <animate attributeName="height" values="0;112;100;86;94" dur="4s" begin="-1.6s" repeatCount="indefinite"/>
           <animate attributeName="y" values="120;8;20;34;26" dur="4s" begin="-1.6s" repeatCount="indefinite"/>
         </rect>
-        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">DATA</text>
+        <text x="18" y="140" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#94a3b8">UI</text>
       </g>
     </g>
   </g>
 
   <!-- Panel C: RADAR / PULSE -->
   <g transform="translate(800 70)">
-    <rect width="360" height="240" rx="14" fill="#0b0427" stroke="#f472b6" stroke-opacity=".5"/>
-    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// PROFILE · PULSE</text>
+    <rect width="360" height="240" rx="14" fill="#0b0427" stroke="#22d3ee" stroke-opacity=".5"/>
+    <text x="20" y="32" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#94a3b8">// FRONTEND · PULSE</text>
 
     <g transform="translate(180 130)">
       <!-- radar rings -->
-      <circle r="20" fill="none" stroke="#f472b6" stroke-opacity=".3"/>
-      <circle r="40" fill="none" stroke="#f472b6" stroke-opacity=".3"/>
-      <circle r="60" fill="none" stroke="#f472b6" stroke-opacity=".3"/>
-      <circle r="80" fill="none" stroke="#f472b6" stroke-opacity=".3"/>
-      <line x1="-90" y1="0" x2="90" y2="0" stroke="#f472b6" stroke-opacity=".25"/>
-      <line x1="0" y1="-90" x2="0" y2="90" stroke="#f472b6" stroke-opacity=".25"/>
+      <circle r="20" fill="none" stroke="#22d3ee" stroke-opacity=".3"/>
+      <circle r="40" fill="none" stroke="#22d3ee" stroke-opacity=".3"/>
+      <circle r="60" fill="none" stroke="#22d3ee" stroke-opacity=".3"/>
+      <circle r="80" fill="none" stroke="#22d3ee" stroke-opacity=".3"/>
+      <line x1="-90" y1="0" x2="90" y2="0" stroke="#22d3ee" stroke-opacity=".25"/>
+      <line x1="0" y1="-90" x2="0" y2="90" stroke="#22d3ee" stroke-opacity=".25"/>
 
       <!-- sweeping radar -->
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
-        <path d="M 0 0 L 90 0 A 90 90 0 0 1 70 56 Z" fill="url(#magentaFill)" opacity=".55"/>
-        <line x1="0" y1="0" x2="90" y2="0" stroke="#f472b6" stroke-width="1.5" filter="url(#tg)"/>
+        <path d="M 0 0 L 90 0 A 90 90 0 0 1 70 56 Z" fill="url(#cyanFill)" opacity=".55"/>
+        <line x1="0" y1="0" x2="90" y2="0" stroke="#22d3ee" stroke-width="1.5" filter="url(#tg)"/>
       </g>
 
       <!-- detected blips -->
-      <circle cx="-50" cy="22" r="3" fill="#f472b6">
+      <circle cx="-50" cy="22" r="3" fill="#22d3ee">
         <animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="38" cy="-44" r="3" fill="#f472b6">
+      <circle cx="38" cy="-44" r="3" fill="#22d3ee">
         <animate attributeName="opacity" values=".2;1;.2" dur="2.1s" begin="-0.5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="-22" cy="-58" r="3" fill="#f472b6">
+      <circle cx="-22" cy="-58" r="3" fill="#22d3ee">
         <animate attributeName="opacity" values=".2;1;.2" dur="1.8s" begin="-1s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="62" cy="32" r="3" fill="#f472b6">
+      <circle cx="62" cy="32" r="3" fill="#22d3ee">
         <animate attributeName="opacity" values=".2;1;.2" dur="2.4s" begin="-1.4s" repeatCount="indefinite"/>
       </circle>
 
       <!-- center node -->
-      <circle r="5" fill="#f472b6" filter="url(#tg)"/>
+      <circle r="5" fill="#22d3ee" filter="url(#tg)"/>
     </g>
   </g>
 
   <!-- bottom legend bar -->
   <g transform="translate(40 332)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#94a3b8" letter-spacing="2">
-    <text x="0">FRONTEND</text>
-    <text x="380">DESIGN / 3D</text>
-    <text x="760">SIGNAL · INBOUND_OK</text>
-    <text x="1120" text-anchor="end">— BUILD: HOLO-UI ◆</text>
+    <text x="0">DATA · BI</text>
+    <text x="380">PIPELINE · METRICS</text>
+    <text x="760">FRONTEND · STRONG_BG</text>
+    <text x="1120" text-anchor="end">— BUILD: HOLO-DATA ◆</text>
   </g>
 
   <!-- bracket frame -->

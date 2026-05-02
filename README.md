@@ -5,7 +5,7 @@
 -->
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Hazem Elerefy — Frontend Engineer · UI/UX · Motion Design" src="assets/hero.svg" />
+  <img width="100%" alt="Hazem Elerefy — Data Analyst · BI · Strong Frontend background" src="assets/hero.svg" />
 </a>
 
 <div align="center">
@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=A78BFA&background=00000000&lines=I+design+interfaces+with+depth%2C+motion%2C+and+intent.;I+turn+data+into+visuals+people+actually+enjoy+reading.;Frontend+%E2%80%A2+UI%2FUX+%E2%80%A2+3D+%E2%80%A2+Motion+%E2%80%A2+Visualization." alt="Animated tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=A78BFA&background=00000000&lines=I+turn+messy+data+into+decisions+people+can+actually+feel.;Data+analyst+by+day+%E2%80%94+frontend+engineer+by+instinct.;SQL+%E2%80%A2+BI+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Motion+%E2%80%A2+Visualization." alt="Animated tagline" />
 </div>
 
 <p align="center">
@@ -33,38 +33,39 @@
 
 ```ts
 const hazem = {
-  role:      "Frontend Engineer · UI/UX · Motion Designer",
-  obsessions:["depth", "motion", "type", "data made beautiful"],
-  loves:     ["3D scenes", "shader trickery", "micro-interactions",
-              "dashboards that don't feel like dashboards"],
-  superpower:"Translating numbers into something humans can feel.",
-  currently: "Building Nebula — a real-time 3D cinematic portfolio."
+  role:        "Data Analyst · BI · Strong Frontend background",
+  mainTrack:   "Analytics, BI, decision-ready dashboards",
+  sideTrack:   "Frontend + motion (React, Three.js, Framer Motion)",
+  obsessions:  ["clean data", "clear decisions", "depth", "motion", "type"],
+  superpower:  "Turning numbers into something humans can actually feel.",
+  currently:   "Shipping analytics by day. Building Nebula 3D for fun."
 } as const;
 ```
 
-I sit at the seam where **frontend craft, interface design, and motion** meet
-**data thinking**. My favorite work feels engineered *and* alive — a dashboard
-that whispers, a portfolio that breathes, a chart that dances when you hover it.
+I'm a **data analyst** first — my main career lives in **SQL, Power BI, and Python**,
+turning operational chaos into reports leadership can act on. But I also have a
+**strong frontend background** (React, TypeScript, Three.js, motion design), which
+means the dashboards I build don't look or feel like default dashboards.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◢ FRONTEND / MOTION
-- React, TypeScript, Tailwind, Framer Motion
-- Three.js · GLSL shaders · WebGL post-processing
-- Glassmorphic, holographic, layered UI
-- Micro-interactions, parallax, depth, easing taste
-- Component systems with **personality**
+### ◢ DATA / ANALYTICS  ·  *main track*
+- **SQL** · Power BI · DAX · Power Query
+- **Python** · Pandas · scikit-learn (EDA, forecasting)
+- KPI dashboards, executive-grade reporting
+- Insight-first storytelling for non-technical readers
+- Translating *what happened* → *what to do next*
 
 </td>
 <td width="50%" valign="top">
 
-### ◢ DATA / DECISIONS
-- SQL · Power BI · DAX · Power Query
-- Python · Pandas · scikit-learn (EDA, forecasting)
-- KPI dashboards, executive-grade reporting
-- Insight-first storytelling for non-technical readers
+### ◢ FRONTEND / MOTION  ·  *strong background*
+- React, TypeScript, Tailwind, Framer Motion
+- Three.js · GLSL shaders · WebGL post-processing
+- Glassmorphic, holographic, layered UI
+- Micro-interactions, parallax, depth, easing taste
 - Custom data viz when defaults aren't enough
 
 </td>
@@ -81,6 +82,16 @@ that whispers, a portfolio that breathes, a chart that dances when you hover it.
 
 <div align="center">
 
+  <sub><b>DATA · BI · ANALYTICS — main track</b></sub><br/>
+  <img alt="SQL" src="https://img.shields.io/badge/-SQL-0b0427?style=flat-square&logo=postgresql&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="Power BI" src="https://img.shields.io/badge/-Power_BI-0b0427?style=flat-square&logo=powerbi&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="DAX" src="https://img.shields.io/badge/-DAX-0b0427?style=flat-square&logo=microsoft&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-0b0427?style=flat-square&logo=python&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-0b0427?style=flat-square&logo=pandas&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="scikit-learn" src="https://img.shields.io/badge/-scikit--learn-0b0427?style=flat-square&logo=scikitlearn&logoColor=f472b6&labelColor=0b0427"/>
+  <img alt="Tableau" src="https://img.shields.io/badge/-Tableau-0b0427?style=flat-square&logo=tableau&logoColor=f472b6&labelColor=0b0427"/>
+  <br/>
+  <sub><b>FRONTEND · MOTION — strong background</b></sub><br/>
   <img alt="React" src="https://img.shields.io/badge/-React-0b0427?style=flat-square&logo=react&logoColor=22d3ee&labelColor=0b0427"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-0b0427?style=flat-square&logo=typescript&logoColor=22d3ee&labelColor=0b0427"/>
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-0b0427?style=flat-square&logo=javascript&logoColor=22d3ee&labelColor=0b0427"/>
@@ -88,16 +99,11 @@ that whispers, a portfolio that breathes, a chart that dances when you hover it.
   <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-0b0427?style=flat-square&logo=css3&logoColor=22d3ee&labelColor=0b0427"/>
   <img alt="Tailwind" src="https://img.shields.io/badge/-Tailwind-0b0427?style=flat-square&logo=tailwindcss&logoColor=22d3ee&labelColor=0b0427"/>
   <br/>
+  <sub><b>3D · MOTION · DESIGN — craft layer</b></sub><br/>
   <img alt="Three.js" src="https://img.shields.io/badge/-Three.js-0b0427?style=flat-square&logo=three.js&logoColor=a78bfa&labelColor=0b0427"/>
   <img alt="GLSL" src="https://img.shields.io/badge/-GLSL-0b0427?style=flat-square&logo=opengl&logoColor=a78bfa&labelColor=0b0427"/>
   <img alt="Framer Motion" src="https://img.shields.io/badge/-Framer_Motion-0b0427?style=flat-square&logo=framer&logoColor=a78bfa&labelColor=0b0427"/>
   <img alt="Figma" src="https://img.shields.io/badge/-Figma-0b0427?style=flat-square&logo=figma&logoColor=a78bfa&labelColor=0b0427"/>
-  <br/>
-  <img alt="Python" src="https://img.shields.io/badge/-Python-0b0427?style=flat-square&logo=python&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="SQL" src="https://img.shields.io/badge/-SQL-0b0427?style=flat-square&logo=postgresql&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-0b0427?style=flat-square&logo=pandas&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Power BI" src="https://img.shields.io/badge/-Power_BI-0b0427?style=flat-square&logo=powerbi&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Tableau" src="https://img.shields.io/badge/-Tableau-0b0427?style=flat-square&logo=tableau&logoColor=f472b6&labelColor=0b0427"/>
 
 </div>
 
@@ -119,9 +125,10 @@ that whispers, a portfolio that breathes, a chart that dances when you hover it.
 ### `Nebula 3D`
 **Real-time cinematic portfolio**
 
-A living 3D universe built with **Three.js**, custom **GLSL shaders**,
-React, and post-processing. Includes a glassmorphic HUD, an integrated
-arcade game, and atmospheric particle systems.
+My personal flex — a living 3D universe built with **Three.js**,
+custom **GLSL shaders**, React, and post-processing. Glassmorphic
+HUD, integrated arcade game, atmospheric particles. Built to prove
+an analyst can ship a frontend that *moves*.
 
 `Three.js` · `React` · `GLSL` · `WebGL`
 
@@ -175,8 +182,9 @@ that turns market noise into interpretable, comparable drivers.
 #### [Personal Portfolio →](https://hazemelerefey.github.io/)
 `Frontend` · `UI / UX` · `Brand`
 
-A presentation layer for everything I make — engineered to feel as
-considered as the work it shows. Frontend taste forward, analytics adjacent.
+Where the analytics work meets the frontend craft — a presentation
+layer engineered to feel as considered as the work it shows.
+Proof that the *side track* still ships.
 
 </td>
 </tr>
@@ -197,10 +205,10 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
 <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top languages"/>
 </div>
 
-### ◢ DESIGN METRICS · LIVE PANEL
+### ◢ ANALYTICS WORKBENCH · LIVE PANEL
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Design metrics — telemetry dashboard" src="assets/telemetry.svg"/>
+  <img width="100%" alt="Analytics workbench — telemetry dashboard" src="assets/telemetry.svg"/>
 </a>
 
 ### ◢ ACTIVITY WAVEFORM
@@ -227,30 +235,30 @@ considered as the work it shows. Frontend taste forward, analytics adjacent.
 <tr>
 <td width="33%" valign="top" align="center">
 
-### ◇ DEPTH
-Layered, parallaxed, intentional.<br/>
-Every surface earns its place.
+### ◇ CLARITY
+The number is only useful if<br/>
+someone can act on it.
 
 </td>
 <td width="33%" valign="top" align="center">
 
-### ◆ MOTION
-Easing communicates.<br/>
-Animation is feedback, not decoration.
+### ◆ CRAFT
+A dashboard is an interface.<br/>
+Frontend taste serves the data.
 
 </td>
 <td width="33%" valign="top" align="center">
 
-### ◈ CLARITY
-Beautiful, but legible first.<br/>
-Visual taste serves the message.
+### ◈ DEPTH
+Motion, layering, hierarchy —<br/>
+so the signal stays loud.
 
 </td>
 </tr>
 </table>
 
 ```text
-think clearly  ·  design with depth  ·  animate with intention  ·  ship things that feel rare
+clean the data  ·  frame the question  ·  design the answer  ·  ship something rare
 ```
 
 <img width="100%" src="assets/divider.svg" alt=""/>
@@ -266,7 +274,7 @@ think clearly  ·  design with depth  ·  animate with intention  ·  ship thing
 <a href="https://hazemelerefey.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/-hazemelerefey.github.io-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=vercel&logoColor=a78bfa"/></a>
 
 <sub><i>This README is hand-coded. Every animation above is a custom SVG —
-no copy-paste, no template. If you can read between the rings,
+no copy-paste, no template. If you can read between the queries,
 the dashboards, and the shaders — that's the job.</i></sub>
 
 </div>
