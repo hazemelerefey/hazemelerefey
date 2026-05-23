@@ -5,7 +5,7 @@
 -->
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Hazem Elerefy — Data Analyst · Graghic Designer · Strong Frontend Developer" src="assets/hero.svg" />
+  <img width="100%" alt="Hazem Elerefy — Data Analyst · Graphic Designer · Strong Frontend Developer" src="assets/hero.svg" />
 </a>
 
 <div align="center">
@@ -13,7 +13,7 @@
 <a href="https://hazemelerefy.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/-PORTFOLIO-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=vercel&logoColor=22d3ee"/></a>
 <a href="https://hazemelerefey.github.io/nebula-profile/"><img alt="Nebula" src="https://img.shields.io/badge/-NEBULA_3D-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=three.js&logoColor=a78bfa"/></a>
 <a href="https://linkedin.com/in/hazemelerefy"><img alt="LinkedIn" src="https://img.shields.io/badge/-LINKEDIN-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/></a>
-<a href="mailto:hazemawed53@gmail.com"><img alt="Email" src="https://img.shields.io/badge/-EMAIL-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/></a>
+<a href="mailto:hazemaelerefy@gmail.com"><img alt="Email" src="https://img.shields.io/badge/-EMAIL-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/></a>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 ```ts
 const hazem = {
-  role:        "Data Analyst · BI · Strong Frontend background",
+  role:        "Data Analyst · Graphic Designer · Strong Frontend background",
   mainTrack:   "Analytics, BI, decision-ready dashboards",
   sideTrack:   "Frontend + motion (React, Three.js, Framer Motion)",
   obsessions:  ["clean data", "clear decisions", "depth", "motion", "type"],
