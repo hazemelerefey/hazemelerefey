@@ -5,7 +5,7 @@
 -->
 
 <a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Hazem Elerefy — Data Analyst · BI · Strong Frontend background" src="assets/hero.svg" />
+  <img width="100%" alt="Hazem Elerefy — Data Analyst · Graghic Designer · Strong Frontend Developer" src="assets/hero.svg" />
 </a>
 
 <div align="center">
