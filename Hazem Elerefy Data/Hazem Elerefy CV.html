@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.4;
+    color: #2d2d2d;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 36pt 42pt;
+  }
+  
+  /* HEADER */
+  .header { text-align: center; margin-bottom: 16pt; }
+  .name { font-size: 22pt; font-weight: 700; letter-spacing: 1.5pt; color: #1a1a2e; margin-bottom: 3pt; text-transform: uppercase; }
+  .title { font-size: 10.5pt; color: #444; margin-bottom: 4pt; }
+  .contact { font-size: 9.5pt; color: #555; }
+  .contact a { color: #2c5282; text-decoration: none; }
+  
+  /* SECTION HEADERS */
+  .section { margin-top: 14pt; }
+  .section-header {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    border-bottom: 1.2pt solid #2c5282;
+    padding-bottom: 2pt;
+    margin-bottom: 8pt;
+  }
+  
+  /* WORK EXPERIENCE */
+  .entry { margin-bottom: 10pt; }
+  .entry-header { margin-bottom: 3pt; }
+  .entry-title { font-size: 11pt; font-weight: 700; color: #1a1a2e; }
+  .entry-sub { font-size: 10pt; color: #444; font-style: italic; }
+  .entry-sub strong { font-style: normal; }
+  
+  /* BULLETS */
+  .bullets { padding-left: 16pt; }
+  .bullets li { margin-bottom: 2.5pt; font-size: 10pt; }
+  
+  /* SKILLS */
+  .skill-line { margin-bottom: 3pt; font-size: 10pt; }
+  .skill-cat { font-weight: 700; }
+  
+  /* PROJECTS */
+  .project { margin-bottom: 8pt; }
+  .project-name { font-size: 10.5pt; font-weight: 700; color: #1a1a2e; }
+  .project-meta { font-size: 9.5pt; color: #555; margin-bottom: 2pt; }
+  .project-meta a { color: #2c5282; text-decoration: none; }
+  .project-desc { font-size: 10pt; margin-bottom: 2pt; }
+  
+  /* EDUCATION */
+  .edu-entry { margin-bottom: 8pt; }
+  .edu-main { font-size: 10.5pt; font-weight: 700; color: #1a1a2e; }
+  .edu-sub { font-size: 10pt; color: #444; font-style: italic; }
+  .edu-detail { font-size: 10pt; color: #555; }
+  
+  /* LANGUAGES */
+  .lang-line { font-size: 10pt; }
+  .lang-line strong { font-weight: 700; }
+  
+  /* UTILITY */
+  .separator { color: #999; margin: 0 5pt; }
+  
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<div class="header">
+  <div class="name">HAZEM KHALED EZAT</div>
+  <div class="title">Applied AI &amp; Data Analyst <span class="separator">·</span> Python <span class="separator">·</span> SQL <span class="separator">·</span> Power BI <span class="separator">·</span> Deep Learning <span class="separator">·</span> Front-End Development</div>
+  <div class="contact">
+    +20 150 826 9570 <span class="separator">·</span> hazemelerefy@gmail.com <span class="separator">·</span> 
+    <a href="https://linkedin.com/in/hazemelerefy">linkedin.com/in/hazemelerefy</a> <span class="separator">·</span> 
+    <a href="https://github.com/hazemelerefey">github.com/hazemelerefey</a> <span class="separator">·</span> 
+    Cairo, Egypt
+  </div>
+</div>
+
+<!-- ====== SUMMARY ====== -->
+<div class="section">
+  <div class="section-header">SUMMARY</div>
+  <p style="font-size:10pt; margin-bottom:2pt;">
+    I'm Hazem — a data analyst who taught himself frontend development, then went deeper into data and AI through the Applied AI &amp; Data Analytics Diploma (Digital Pioneers / MCIT). Right now I build KPI dashboards, SQL pipelines, predictive models, and deep learning systems. I led teams on all 4 course projects and my graduation project — DigiSteel-YOLO, a deep learning model for steel defect detection. I'm also deep into the AI tools ecosystem: I build autonomous agents, design MCP integrations, and create reusable agent skills. I lead naturally, I communicate well across technical and non-technical people, and I build things other people can actually pick up and run.
+  </p>
+</div>
+
+<!-- ====== WORK EXPERIENCE ====== -->
+<div class="section">
+  <div class="section-header">WORK EXPERIENCE</div>
+  
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">Data Analyst</span>
+    </div>
+    <div class="entry-sub"><strong>Digilians | MCIT</strong> · Cairo, Egypt · Dec 2025 – Aug 2026</div>
+    <ul class="bullets">
+      <li>Built KPI dashboards in Power BI that made recurring metrics self-serve, reducing the volume of one-off reporting requests.</li>
+      <li>Developed SQL reporting workflows (PostgreSQL) that replaced manual data preparation steps and improved turnaround time on recurring reports.</li>
+      <li>Designed relational schemas with full ERD documentation, improving consistency and traceability of data used in downstream reporting.</li>
+      <li>Presented findings to non-technical stakeholders through custom visuals designed to be readable without additional explanation.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== PROJECTS ====== -->
+<div class="section">
+  <div class="section-header">SELECTED PROJECTS</div>
+
+  <div class="project">
+    <div class="project-name">1. DigiSteel-YOLO — Deep Learning for Industrial Defect Detection</div>
+    <div class="project-meta">Python · PyTorch · Ultralytics YOLO · Computer Vision &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/DigiSteel-YOLO">github.com/hazemelerefey/DigiSteel-YOLO</a></div>
+    <div class="project-desc">Built a custom YOLO-based deep learning model for detecting defects on steel surfaces using the NEU-DET dataset. Designed a robustness testing framework with 24 test scenarios (6 perturbation types, 4 severity levels) — something other steel defect papers haven't done. The project includes modular training pipelines, attention mechanisms, and configurable augmentation.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-name">2. Churn Prediction Model</div>
+    <div class="project-meta">Python · Scikit-learn · SHAP · Pandas &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/analytics-churn-prediction">github.com/hazemelerefey/analytics-churn-prediction</a></div>
+    <div class="project-desc">Churn prediction model using Scikit-learn, with SHAP-based interpretation to explain which factors drive customer churn. Covered the full pipeline: cleaning, feature prep, training, and evaluation.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-name">3. Global E-Commerce Sales Tracker</div>
+    <div class="project-meta">Power BI · SQL · Data Modeling &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/global-ecommerce-sales-tracker">github.com/hazemelerefey/global-ecommerce-sales-tracker</a></div>
+    <div class="project-desc">Power BI dashboard for tracking revenue, profit, orders, and regional performance. Built for executives who need KPIs at a glance, with drill-downs for deeper analysis.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-name">4. Social Intelligence Pipeline — Autonomous AI Agent</div>
+    <div class="project-meta">n8n · REST APIs · RSS/Atom Parsing · Reddit API · Cron Automation &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/n8n-projects">github.com/hazemelerefey/n8n-projects</a></div>
+    <div class="project-desc">An autonomous agent that runs every morning, pulls trending posts from 5 subreddits (technology, startups, SaaS, webdev, productivity), handles rate limits and retries on its own, and normalizes everything into a clean format. Built to run without supervision.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-name">5. Social Content AI Agent — Multi-Platform Publishing</div>
+    <div class="project-meta">n8n · OpenAI API · Hacker News API · Dev.to API · Facebook · X (Twitter) &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/n8n-projects">github.com/hazemelerefey/n8n-projects</a></div>
+    <div class="project-desc">An autonomous agent that finds trending stories from Hacker News and Dev.to, scores them with a custom relevance algorithm, then generates Arabic content for Facebook and X. It has its own brand voice, a 6-angle content strategy, and publishes twice a day at 10 AM and 6 PM — no manual work needed.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-name">6. Personal Portfolio Website — Harry Potter Edition</div>
+    <div class="project-meta">Next.js · TypeScript · CSS · Vercel &nbsp;|&nbsp; <a href="https://hazemelerefy.vercel.app">hazemelerefy.vercel.app</a> &nbsp;|&nbsp; <a href="https://github.com/hazemelerefey/hazemelerefy-website-harry-potter-edition-">Source</a></div>
+    <div class="project-desc">My personal portfolio, built with Next.js and TypeScript, themed after Harry Potter. Custom SVGs, animations, responsive layout. Deployed on Vercel.</div>
+  </div>
+</div>
+
+<!-- ====== SKILLS ====== -->
+<div class="section">
+  <div class="section-header">SKILLS</div>
+  
+  <div class="skill-line"><span class="skill-cat">Analytics:</span> SQL (PostgreSQL, SSMS) · Python (Pandas, NumPy, Scikit-learn) · Power BI · Excel (Advanced) · DAX · ETL · Star Schema · Data Warehousing · Statistical Analysis</div>
+  <div class="skill-line"><span class="skill-cat">Machine Learning &amp; AI:</span> Deep Learning (PyTorch, YOLO) · Classification Models · SHAP Analysis · Feature Engineering · Predictive Modeling · Model Evaluation (AUC, F1, Confusion Matrix)</div>
+  <div class="skill-line"><span class="skill-cat">Applied AI &amp; Automation:</span> Autonomous AI Agents · n8n Workflow Automation · MCP Server Design &amp; Integration · Agent Skill Development · Plugin Architecture · MLOps Fundamentals · End-to-End ML Pipelines</div>
+  <div class="skill-line"><span class="skill-cat">AI Tools (Expert):</span> Claude Code CLI · OpenClaw · Hermes CLI · Antigravity · Qoder · OpenCode · Mimo Code · Cursor · Windsurf · Copilot</div>
+  <div class="skill-line"><span class="skill-cat">Front-End:</span> HTML5 · CSS3 (SASS, Tailwind) · JavaScript (ES6+) · React.js · Next.js · Figma · REST API Integration</div>
+  <div class="skill-line"><span class="skill-cat">Tools:</span> Git · GitHub · Jupyter Notebook · Google Colab · VS Code · Streamlit</div>
+  <div class="skill-line"><span class="skill-cat">Soft Skills:</span> Leadership · Leadership Without Authority · Cross-Functional Communication · Strategic Thinking · Team Collaboration · Problem-Solving · Self-Directed Learning</div>
+</div>
+
+<!-- ====== LANGUAGES ====== -->
+<div class="section">
+  <div class="section-header">LANGUAGES</div>
+  <div class="lang-line"><strong>Arabic:</strong> native &nbsp;&nbsp;|&nbsp;&nbsp; <strong>English:</strong> Intermediate (B1)</div>
+</div>
+
+<!-- ====== EDUCATION ====== -->
+<div class="section">
+  <div class="section-header">EDUCATION</div>
+  
+  <div class="edu-entry">
+    <div class="edu-main">Diploma, Applied AI &amp; Data Analytics</div>
+    <div class="edu-sub"><strong>Digilians | MCIT</strong> · Dec 2025 – Aug 2026</div>
+    <div class="edu-detail">Python, SQL, Machine Learning, Deep Learning, and AI Agent Systems.</div>
+  </div>
+  
+  <div class="edu-entry">
+    <div class="edu-main">Nanodegree, Front-End Web Development</div>
+    <div class="edu-sub"><strong>Egypt FWD (Udacity)</strong> · Sep 2020 – Mar 2022</div>
+
+  </div>
+  
+  <div class="edu-entry">
+    <div class="edu-main">Bachelor of Laws (LL.B.) — Commercial &amp; Corporate Law</div>
+    <div class="edu-sub"><strong>Port Said University</strong> · 2020 – 2024</div>
+    <div class="edu-detail">Business regulations, corporate governance, and commercial contracts. Legal training provided structured reasoning, research methodology, and regulatory compliance foundations that strengthen work in data governance, business rules, and analytics integrity.</div>
+  </div>
+</div>
+
+<!-- ====== CERTIFICATIONS ====== -->
+<div class="section">
+  <div class="section-header">CERTIFICATIONS</div>
+  
+  <div class="edu-entry">
+    <div class="edu-main">Delivering Quality Work with Agility</div>
+    <div class="edu-sub"><strong>IBM (Coursera)</strong></div>
+  </div>
+
+  <div class="edu-entry">
+    <div class="edu-main">Google Data Analytics Professional Certificate</div>
+    <div class="edu-sub"><strong>Google (Coursera)</strong></div>
+    <div class="edu-detail">Foundations: Data, Data, Everywhere · Ask Questions to Make Data-Driven Decisions · Prepare Data for Exploration</div>
+  </div>
+</div>
+
+</body>
+</html>
