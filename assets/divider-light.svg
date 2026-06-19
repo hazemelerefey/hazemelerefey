@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" role="img" aria-label="Section divider">
+  <title>Section Divider Light</title>
+  <rect width="1200" height="40" fill="none"/>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="600" cy="20" r="4" fill="#7c3aed"/>
+</svg>

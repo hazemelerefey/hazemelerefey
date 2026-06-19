@@ -1,280 +1,204 @@
 <!--
-  Hazem Elerefy — Profile README
-  Custom-built, animated SVG identity. Designed and assembled by hand.
-  Each visual asset under /assets is a hand-authored animated SVG (SMIL + CSS).
+  ╔══════════════════════════════════════════════════════════╗
+  ║  HAZEM ELEREFY — APPLIED AI & DATA ANALYST                ║
+  ║  Custom-built profile. Hand-authored SVG + motion system. ║
+  ║  Designed to be read in both dark and light mode.         ║
+  ╚══════════════════════════════════════════════════════════╝
 -->
-
-<a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Hazem Elerefy — Data Analyst · Graphic Designer · Strong Frontend Developer" src="assets/hero.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <a href="https://github.com/hazemelerefey">
+    <img width="100%" alt="Hazem Elerefy — Applied AI & Data Analyst who turns messy data into decisions and ships React / Three.js frontend experiences." src="assets/hero-dark.svg" />
+  </a>
+</picture>
+<div align="center">
+<a href="https://hazemelerefy.vercel.app/">
+  <img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=vercel&logoColor=22d3ee"/>
 </a>
-
-<div align="center">
-
-<a href="https://hazemelerefy.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/-PORTFOLIO-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=vercel&logoColor=22d3ee"/></a>
-<a href="https://hazemelerefey.github.io/nebula-profile/"><img alt="Nebula" src="https://img.shields.io/badge/-NEBULA_3D-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=three.js&logoColor=a78bfa"/></a>
-<a href="https://linkedin.com/in/hazemelerefy"><img alt="LinkedIn" src="https://img.shields.io/badge/-LINKEDIN-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/></a>
-<a href="mailto:hazemaelerefy@gmail.com"><img alt="Email" src="https://img.shields.io/badge/-EMAIL-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/></a>
-
+<a href="https://hazemelerefey.github.io/nebula-profile/">
+  <img alt="Nebula 3D" src="https://img.shields.io/badge/NEBULA_3D-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=three.js&logoColor=a78bfa"/>
+</a>
+<a href="https://linkedin.com/in/hazemelerefy">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/>
+</a>
+<a href="mailto:hazemelerefy@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/EMAIL-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/>
+</a>
+<a href="https://github.com/hazemelerefey/hazemelerefey/blob/main/cv.html">
+  <img alt="Download CV" src="https://img.shields.io/badge/DOWNLOAD_CV-0b0427?style=for-the-badge&labelColor=0b0427&color=ffffff&logo=readme&logoColor=ffffff"/>
+</a>
 </div>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=A78BFA&background=00000000&lines=I+turn+messy+data+into+decisions+people+can+actually+feel.;Data+analyst+by+day+%E2%80%94+frontend+engineer+by+instinct.;SQL+%E2%80%A2+BI+%E2%80%A2+Python+%E2%80%A2+React+%E2%80%A2+Motion+%E2%80%A2+Visualization." alt="Animated tagline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=A78BFA&background=00000000&lines=Applied+AI+%E2%80%A2+Data+Analytics+%E2%80%A2+Decision-Ready+Dashboards;SQL+%E2%80%A2+Python+%E2%80%A2+Power+BI+%E2%80%A2+YOLO+%E2%80%A2+Autonomous+Agents;React+%E2%80%A2+Three.js+%E2%80%A2+GLSL+%E2%80%A2+Motion+Design+%E2%80%A2+Data+Viz">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=7C3AED&background=00000000&lines=Applied+AI+%E2%80%A2+Data+Analytics+%E2%80%A2+Decision-Ready+Dashboards;SQL+%E2%80%A2+Python+%E2%80%A2+Power+BI+%E2%80%A2+YOLO+%E2%80%A2+Autonomous+Agents;React+%E2%80%A2+Three.js+%E2%80%A2+GLSL+%E2%80%A2+Motion+Design+%E2%80%A2+Data+Viz">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&center=true&vCenter=true&width=900&height=40&color=A78BFA&background=00000000&lines=Applied+AI+%E2%80%A2+Data+Analytics+%E2%80%A2+Decision-Ready+Dashboards;SQL+%E2%80%A2+Python+%E2%80%A2+Power+BI+%E2%80%A2+YOLO+%E2%80%A2+Autonomous+Agents;React+%E2%80%A2+Three.js+%E2%80%A2+GLSL+%E2%80%A2+Motion+Design+%E2%80%A2+Data+Viz" alt="Animated tagline: Applied AI, Data Analytics, Decision-Ready Dashboards, SQL, Python, Power BI, YOLO, Autonomous Agents, React, Three.js, GLSL, Motion Design, Data Viz"/>
+  </picture>
 </div>
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hazemelerefey&label=PROFILE+VIEWS&color=A78BFA&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=hazemelerefey&label=VIEWS&color=A78BFA&style=for-the-badge" alt="Profile view counter" />
   <img src="https://img.shields.io/github/followers/hazemelerefey?label=FOLLOWERS&style=for-the-badge&color=22D3EE&labelColor=0b0427" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/hazemelerefey?style=for-the-badge&color=F472B6&label=STARS&labelColor=0b0427" alt="GitHub stars" />
 </p>
-
-<img width="100%" src="assets/divider.svg" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
+</picture>
 
 ## ◢ /01 · IDENTITY
 
 ```ts
 const hazem = {
-  role:        "Data Analyst · Graphic Designer · Strong Frontend background",
-  mainTrack:   "Analytics, BI, decision-ready dashboards",
-  sideTrack:   "Frontend + motion (React, Three.js, Framer Motion)",
-  obsessions:  ["clean data", "clear decisions", "depth", "motion", "type"],
+  name:        "Hazem Elerefy",
+  role:        "Applied AI & Data Analyst · Frontend-Design Craftsman",
+  mainTrack:   "Analytics, BI, predictive modeling, decision-ready dashboards",
+  sideTrack:   "Frontend + motion (React, Three.js, Framer Motion, GLSL)",
+  aiLayer:     "YOLO, autonomous agents, MCP servers, AI workflow automation",
   superpower:  "Turning numbers into something humans can actually feel.",
-  currently:   "Shipping analytics by day. Building Nebula 3D for fun."
+  currently:   "Shipping analytics by day. Building AI agents and Nebula for fun.",
 } as const;
 ```
 
-I'm a **data analyst** first — my main career lives in **SQL, Power BI, and Python**,
-turning operational chaos into reports leadership can act on. But I also have a
-**strong frontend background** (React, TypeScript, Three.js, motion design), which
-means the dashboards I build don't look or feel like default dashboards.
+I'm an Applied AI & Data Analyst with a strong visual-engineering side. My core work lives in SQL, Python, Power BI, and predictive modeling, but I also build autonomous AI agents, deep learning systems, and motion-rich frontend experiences. The result: dashboards and tools that don't just report — they communicate.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<table> <tr> <td width="50%" valign="top">
 
-### ◢ DATA / ANALYTICS  ·  *main track*
-- **SQL** · Power BI · DAX · Power Query
-- **Python** · Pandas · scikit-learn (EDA, forecasting)
-- KPI dashboards, executive-grade reporting
-- Insight-first storytelling for non-technical readers
-- Translating *what happened* → *what to do next*
+◢ DATA / ANALYTICS · main track
+SQL · PostgreSQL · SSMS
+Power BI · DAX · Power Query
+Python · Pandas · NumPy
+Scikit-learn · EDA · forecasting
+Executive dashboards · KPI design
+Insight-first storytelling
 
-</td>
-<td width="50%" valign="top">
+</td> <td width="50%" valign="top">
 
-### ◢ FRONTEND / MOTION  ·  *strong background*
-- React, TypeScript, Tailwind, Framer Motion
-- Three.js · GLSL shaders · WebGL post-processing
-- Glassmorphic, holographic, layered UI
-- Micro-interactions, parallax, depth, easing taste
-- Custom data viz when defaults aren't enough
+◢ AI / ML / AUTOMATION · rising track
+Deep learning · YOLO · PyTorch
+Autonomous agents · n8n
+MCP server design & integration
+Predictive modeling · SHAP
+REST API orchestration
+Plugin / skill architecture
 
-</td>
-</tr>
-</table>
+</td> </tr> <tr> <td width="50%" valign="top">
 
-<img width="100%" src="assets/divider.svg" alt=""/>
+◢ FRONTEND / MOTION · craft layer
+React · TypeScript · Next.js
+Three.js · WebGL · GLSL
+Tailwind · Framer Motion
+Glassmorphic / holographic UI
+Custom data visualization
+Motion, depth, easing taste
 
-## ◢ /02 · STACK · ORBITAL VIEW
+</td> <td width="50%" valign="top">
 
-<a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Tech stack — orbital animation" src="assets/orbit-stack.svg"/>
-</a>
+◢ BRIDGE SKILLS · differentiator
+LL.B. Commercial & Corporate Law
+Leadership without authority
+Cross-functional communication
+Business rules & data governance
+Technical-to-stakeholder translation
+Self-directed, project-driven learner
 
-<div align="center">
+</td> </tr> </table>
 
-  <sub><b>DATA · BI · ANALYTICS — main track</b></sub><br/>
-  <img alt="SQL" src="https://img.shields.io/badge/-SQL-0b0427?style=flat-square&logo=postgresql&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Power BI" src="https://img.shields.io/badge/-Power_BI-0b0427?style=flat-square&logo=powerbi&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="DAX" src="https://img.shields.io/badge/-DAX-0b0427?style=flat-square&logo=microsoft&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Python" src="https://img.shields.io/badge/-Python-0b0427?style=flat-square&logo=python&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-0b0427?style=flat-square&logo=pandas&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="scikit-learn" src="https://img.shields.io/badge/-scikit--learn-0b0427?style=flat-square&logo=scikitlearn&logoColor=f472b6&labelColor=0b0427"/>
-  <img alt="Tableau" src="https://img.shields.io/badge/-Tableau-0b0427?style=flat-square&logo=tableau&logoColor=f472b6&labelColor=0b0427"/>
-  <br/>
-  <sub><b>FRONTEND · MOTION — strong background</b></sub><br/>
-  <img alt="React" src="https://img.shields.io/badge/-React-0b0427?style=flat-square&logo=react&logoColor=22d3ee&labelColor=0b0427"/>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-0b0427?style=flat-square&logo=typescript&logoColor=22d3ee&labelColor=0b0427"/>
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-0b0427?style=flat-square&logo=javascript&logoColor=22d3ee&labelColor=0b0427"/>
-  <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-0b0427?style=flat-square&logo=html5&logoColor=22d3ee&labelColor=0b0427"/>
-  <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-0b0427?style=flat-square&logo=css3&logoColor=22d3ee&labelColor=0b0427"/>
-  <img alt="Tailwind" src="https://img.shields.io/badge/-Tailwind-0b0427?style=flat-square&logo=tailwindcss&logoColor=22d3ee&labelColor=0b0427"/>
-  <br/>
-  <sub><b>3D · MOTION · DESIGN — craft layer</b></sub><br/>
-  <img alt="Three.js" src="https://img.shields.io/badge/-Three.js-0b0427?style=flat-square&logo=three.js&logoColor=a78bfa&labelColor=0b0427"/>
-  <img alt="GLSL" src="https://img.shields.io/badge/-GLSL-0b0427?style=flat-square&logo=opengl&logoColor=a78bfa&labelColor=0b0427"/>
-  <img alt="Framer Motion" src="https://img.shields.io/badge/-Framer_Motion-0b0427?style=flat-square&logo=framer&logoColor=a78bfa&labelColor=0b0427"/>
-  <img alt="Figma" src="https://img.shields.io/badge/-Figma-0b0427?style=flat-square&logo=figma&logoColor=a78bfa&labelColor=0b0427"/>
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
 
-</div>
+## ◢ /02 · LIVE TELEMETRY
 
-<img width="100%" src="assets/divider.svg" alt=""/>
+<p align="center"> <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hazemelerefey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&icon_color=22D3EE&text_color=cbd5e1&rank_icon=github" alt="GitHub stats card"/> <img height="170" src="https://streak-stats.demolab.com/?user=hazemelerefey&theme=tokyonight&hide_border=true&background=0b0427&stroke=A78BFA&ring=22D3EE&fire=F472B6&currStreakLabel=A78BFA&sideLabels=cbd5e1&dates=64748b&currStreakNum=22D3EE&sideNums=cbd5e1" alt="GitHub streak stats"/> </p>
 
-## ◢ /03 · FEATURED · NEBULA PROFILE
+<p align="center"> <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top programming languages"/> </p>
 
-<table>
-<tr>
-<td width="62%" valign="top">
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-live.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/dashboard-live-light.svg"> <img width="100%" alt="Live GitHub dashboard — updates automatically via GitHub Actions" src="assets/dashboard-live.svg"/> </picture>
 
-<a href="https://hazemelerefey.github.io/nebula-profile/">
-  <img alt="Nebula 3D banner" src="https://raw.githubusercontent.com/hazemelerefey/nebula-profile/main/public/assets/nebula-banner.svg" width="100%"/>
-</a>
+## ◢ ACTIVITY WAVEFORM
 
-</td>
-<td width="38%" valign="top">
+<p align="center"> <img width="98%" alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=hazemelerefey&bg_color=0b0427&color=A78BFA&line=22D3EE&point=F472B6&area=true&hide_border=true&custom_title=Recent%20Activity%20Waveform"/> </p>
 
-### `Nebula 3D`
-**Real-time cinematic portfolio**
+## ◢ CONTRIBUTION GRID · ANIMATED
 
-My personal flex — a living 3D universe built with **Three.js**,
-custom **GLSL shaders**, React, and post-processing. Glassmorphic
-HUD, integrated arcade game, atmospheric particles. Built to prove
-an analyst can ship a frontend that *moves*.
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake.svg"/> <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/> </picture> </p>
+
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
+
+## ◢ /03 · FLAGSHIP SHIPS
+
+<table> <tr> <td width="55%" valign="top"> <a href="https://github.com/hazemelerefey/DigiSteel-YOLO"> <img alt="DigiSteel-YOLO — deep learning for steel defect detection" src="https://raw.githubusercontent.com/hazemelerefey/DigiSteel-YOLO/main/assets/digisteel-banner.svg" width="100%"/> </a> </td> <td width="45%" valign="top">
+
+**DigiSteel-YOLO**
+Industrial defect detection with custom YOLO
+
+Graduation project from the Applied AI & Data Analytics Diploma. Built a custom YOLO model for steel surface defect detection using the NEU-DET dataset. Added a robustness-testing framework with 24 perturbation scenarios — a step other papers in this space skip.
+
+`PyTorch` · `Ultralytics YOLO` · `Computer Vision` · `Applied AI`
+
+[▶ OPEN REPO](https://github.com/hazemelerefey/DigiSteel-YOLO) · [📄 READ PAPER](https://github.com/hazemelerefey/DigiSteel-YOLO)
+
+</td> </tr> </table>
+
+<table> <tr> <td width="45%" valign="top">
+
+**Nebula 3D**
+Real-time cinematic portfolio universe
+
+A living WebGL experience with custom GLSL shaders, glassmorphic HUD, atmospheric particles, and an integrated arcade game. Built to prove an analyst can ship frontend craft that moves.
 
 `Three.js` · `React` · `GLSL` · `WebGL`
 
-[**▶ LAUNCH UNIVERSE**](https://hazemelerefey.github.io/nebula-profile/)
-&nbsp;·&nbsp;
-[**REPO**](https://github.com/hazemelerefey/nebula-profile)
+[▶ LAUNCH UNIVERSE](https://hazemelerefey.github.io/nebula-profile/) · [REPO](https://github.com/hazemelerefey/nebula-profile)
 
-</td>
-</tr>
-</table>
+</td> <td width="55%" valign="top"> <a href="https://hazemelerefey.github.io/nebula-profile/"> <img alt="Nebula 3D — cinematic portfolio universe" src="https://raw.githubusercontent.com/hazemelerefey/nebula-profile/main/public/assets/nebula-banner.svg" width="100%"/> </a> </td> </tr> </table>
 
-<img width="100%" src="assets/divider.svg" alt=""/>
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
 
-## ◢ /04 · SHOWCASE
+## ◢ /04 · MORE WORK
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Project | Stack | What it does |
+|---------|-------|--------------|
+| Social Intelligence Pipeline | n8n · Reddit API · RSS | Autonomous morning agent that pulls, normalizes, and retries trending posts from 5 subreddits without supervision. |
+| Social Content AI Agent | n8n · OpenAI · HN · Dev.to | Finds trending stories, scores them, generates Arabic content, and publishes to Facebook & X twice daily. |
+| Global E-Commerce Sales Tracker | Power BI · SQL | Executive dashboard tracking revenue, profit, orders, and regional performance with drill-downs. |
+| Churn Prediction Model | Python · scikit-learn · SHAP | Predicts retention risk and explains churn drivers with business-ready SHAP interpretation. |
+| Real Estate Value Drivers | EDA · Pricing analytics | Structured exploratory analysis turning market noise into comparable value drivers. |
+| Healthcare Wait-Time Analytics | SQL · Power BI | Operational analytics for waitlists, specialty demand, and bottleneck visibility. |
 
-#### [Healthcare Wait-Time Analytics →](https://github.com/hazemelerefey/analytics-healthcare-waits)
-`SQL` · `Power BI` · `Power Query`
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
 
-Operational analytics for waitlists, specialty demand, and bottleneck
-visibility. Translates raw service data into clear planning signals
-decision-makers can act on.
+## ◢ /05 · PHILOSOPHY
 
-</td>
-<td width="50%" valign="top">
+<table> <tr> <td width="33%" valign="top" align="center">
 
-#### [Customer Churn Prediction →](https://github.com/hazemelerefey/analytics-churn-prediction)
-`Python` · `scikit-learn` · `Pandas`
-
-Identifies retention risk and churn drivers from customer behavior.
-Combines predictive modeling with business framing — moves from
-"what happened" to "what to do next."
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [Real Estate Value Drivers →](https://github.com/hazemelerefey/analytics-realestate-drivers)
-`EDA` · `Pricing analytics`
-
-What actually drives property value? A structured exploratory analysis
-that turns market noise into interpretable, comparable drivers.
-
-</td>
-<td width="50%" valign="top">
-
-#### [Personal Portfolio →](https://hazemelerefey.github.io/)
-`Frontend` · `UI / UX` · `Brand`
-
-Where the analytics work meets the frontend craft — a presentation
-layer engineered to feel as considered as the work it shows.
-Proof that the *side track* still ships.
-
-</td>
-</tr>
-</table>
-
-<img width="100%" src="assets/divider.svg" alt=""/>
-
-## ◢ /05 · TELEMETRY
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hazemelerefey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&icon_color=22D3EE&text_color=cbd5e1&rank_icon=github" alt="GitHub stats"/>
-<img height="170" src="https://streak-stats.demolab.com/?user=hazemelerefey&theme=tokyonight&hide_border=true&background=0b0427&stroke=A78BFA&ring=22D3EE&fire=F472B6&currStreakLabel=A78BFA&sideLabels=cbd5e1&dates=64748b&currStreakNum=22D3EE&sideNums=cbd5e1" alt="GitHub streak"/>
-
-</div>
-
-<div align="center">
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top languages"/>
-</div>
-
-### ◢ ANALYTICS WORKBENCH · LIVE PANEL
-
-<a href="https://github.com/hazemelerefey">
-  <img width="100%" alt="Analytics workbench — telemetry dashboard" src="assets/telemetry.svg"/>
-</a>
-
-### ◢ ACTIVITY WAVEFORM
-
-<div align="center">
-  <img width="98%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=hazemelerefey&bg_color=0b0427&color=A78BFA&line=22D3EE&point=F472B6&area=true&hide_border=true&custom_title=Recent%20Activity%20Waveform"/>
-</div>
-
-### ◢ CONTRIBUTION GRID · ANIMATED
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
-</div>
-
-<img width="100%" src="assets/divider.svg" alt=""/>
-
-## ◢ /06 · PHILOSOPHY
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-### ◇ CLARITY
-The number is only useful if<br/>
+◇ CLARITY
+A number is only useful if
 someone can act on it.
 
-</td>
-<td width="33%" valign="top" align="center">
+</td> <td width="33%" valign="top" align="center">
 
-### ◆ CRAFT
-A dashboard is an interface.<br/>
-Frontend taste serves the data.
+◆ CRAFT
+The interface is part of
+the insight, not decoration.
 
-</td>
-<td width="33%" valign="top" align="center">
+</td> <td width="33%" valign="top" align="center">
 
-### ◈ DEPTH
-Motion, layering, hierarchy —<br/>
-so the signal stays loud.
+◈ DEPTH
+Motion, hierarchy, and layering
+keep the signal loud.
 
-</td>
-</tr>
-</table>
+</td> </tr> </table>
 
-```text
-clean the data  ·  frame the question  ·  design the answer  ·  ship something rare
-```
+<p align="center"> <code>clean the data · frame the question · design the answer · ship something rare</code> </p>
 
-<img width="100%" src="assets/divider.svg" alt=""/>
+<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/footer-cta-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/footer-cta-light.svg"> <a href="mailto:hazemelerefy@gmail.com"> <img width="100%" alt="Open to collaboration — email Hazem Elerefy" src="assets/footer-cta-dark.svg"/> </a> </picture>
 
-<a href="mailto:hazemawed53@gmail.com">
-  <img width="100%" alt="Open to collaboration" src="assets/footer-cta.svg"/>
-</a>
+<div align="center"> <a href="mailto:hazemelerefy@gmail.com"> <img alt="Email" src="https://img.shields.io/badge/hazemelerefy@gmail.com-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/> </a> <a href="https://linkedin.com/in/hazemelerefy"> <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin.com/in/hazemelerefy-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/> </a> <a href="https://hazemelerefey.github.io/"> <img alt="Portfolio" src="https://img.shields.io/badge/hazemelerefey.github.io-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=github&logoColor=a78bfa"/> </a>
 
-<div align="center">
-
-<a href="mailto:hazemawed53@gmail.com"><img alt="Email" src="https://img.shields.io/badge/-hazemawed53@gmail.com-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/></a>
-<a href="https://linkedin.com/in/hazemelerefy"><img alt="LinkedIn" src="https://img.shields.io/badge/-/in/hazemelerefy-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/></a>
-<a href="https://hazemelerefey.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/-hazemelerefey.github.io-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=vercel&logoColor=a78bfa"/></a>
-
-<sub><i>This README is hand-coded. Every animation above is a custom SVG —
-no copy-paste, no template. If you can read between the queries,
-the dashboards, and the shaders — that's the job.</i></sub>
+<sub><i>
+This README is hand-built. Every SVG is authored, not templated.
+If you can read between the queries, the models, and the shaders — that's the job.
+</i></sub>
 
 </div>
