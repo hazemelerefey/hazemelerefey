@@ -5,13 +5,9 @@
   ║  Designed to be read in both dark and light mode.         ║
   ╚══════════════════════════════════════════════════════════╝
 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <a href="https://github.com/hazemelerefey">
-    <img width="100%" alt="Hazem Elerefy — Applied AI & Data Analyst who turns messy data into decisions and ships React / Three.js frontend experiences." src="assets/hero-dark.svg" />
-  </a>
-</picture>
+<a href="https://github.com/hazemelerefey">
+  <img width="100%" alt="Hazem Elerefy — Applied AI & Data Analyst who turns messy data into decisions and ships React / Three.js frontend experiences." src="assets/hero-dark.svg" />
+</a>
 <div align="center">
 <a href="https://hazemelerefy.vercel.app/">
   <img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=vercel&logoColor=22d3ee"/>
@@ -41,11 +37,7 @@
   <img src="https://img.shields.io/github/followers/hazemelerefey?label=FOLLOWERS&style=for-the-badge&color=22D3EE&labelColor=0b0427" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/hazemelerefey?style=for-the-badge&color=F472B6&label=STARS&labelColor=0b0427" alt="GitHub stars" />
 </p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
-</picture>
+<img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
 
 ## ◢ /01 · IDENTITY
 
@@ -105,7 +97,7 @@ Self-directed, project-driven learner
 
 </td> </tr> </table>
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
+<img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
 
 ## ◢ /02 · LIVE TELEMETRY
 
@@ -113,7 +105,7 @@ Self-directed, project-driven learner
 
 <p align="center"> <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hazemelerefey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0427&title_color=A78BFA&text_color=cbd5e1&langs_count=10" alt="Top programming languages"/> </p>
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-live.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/dashboard-live-light.svg"> <img width="100%" alt="Live GitHub dashboard — updates automatically via GitHub Actions" src="assets/dashboard-live.svg"/> </picture>
+<img width="100%" alt="Live GitHub dashboard" src="assets/dashboard-live.svg"/>
 
 ## ◢ ACTIVITY WAVEFORM
 
@@ -123,7 +115,7 @@ Self-directed, project-driven learner
 
 <p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake.svg"/> <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-contribution-grid-snake-dark.svg"/> </picture> </p>
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
+<img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
 
 ## ◢ /03 · FLAGSHIP SHIPS
 
@@ -153,7 +145,7 @@ A living WebGL experience with custom GLSL shaders, glassmorphic HUD, atmospheri
 
 </td> <td width="55%" valign="top"> <a href="https://hazemelerefey.github.io/nebula-profile/"> <img alt="Nebula 3D — cinematic portfolio universe" src="https://raw.githubusercontent.com/hazemelerefey/nebula-profile/main/public/assets/nebula-banner.svg" width="100%"/> </a> </td> </tr> </table>
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
+<img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
 
 ## ◢ /04 · MORE WORK
 
@@ -166,7 +158,7 @@ A living WebGL experience with custom GLSL shaders, glassmorphic HUD, atmospheri
 | Real Estate Value Drivers | EDA · Pricing analytics | Structured exploratory analysis turning market noise into comparable value drivers. |
 | Healthcare Wait-Time Analytics | SQL · Power BI | Operational analytics for waitlists, specialty demand, and bottleneck visibility. |
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg"> <img width="100%" src="assets/divider-dark.svg" alt="Section divider"/> </picture>
+<img width="100%" src="assets/divider-dark.svg" alt="Section divider"/>
 
 ## ◢ /05 · PHILOSOPHY
 
@@ -192,7 +184,7 @@ keep the signal loud.
 
 <p align="center"> <code>clean the data · frame the question · design the answer · ship something rare</code> </p>
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="assets/footer-cta-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/footer-cta-light.svg"> <a href="mailto:hazemelerefy@gmail.com"> <img width="100%" alt="Open to collaboration — email Hazem Elerefy" src="assets/footer-cta-dark.svg"/> </a> </picture>
+<a href="mailto:hazemelerefy@gmail.com"><img width="100%" alt="Open to collaboration � email Hazem Elerefy" src="assets/footer-cta-dark.svg"/></a>
 
 <div align="center"> <a href="mailto:hazemelerefy@gmail.com"> <img alt="Email" src="https://img.shields.io/badge/hazemelerefy@gmail.com-0b0427?style=for-the-badge&labelColor=0b0427&color=f472b6&logo=gmail&logoColor=f472b6"/> </a> <a href="https://linkedin.com/in/hazemelerefy"> <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin.com/in/hazemelerefy-0b0427?style=for-the-badge&labelColor=0b0427&color=22d3ee&logo=linkedin&logoColor=22d3ee"/> </a> <a href="https://hazemelerefey.github.io/"> <img alt="Portfolio" src="https://img.shields.io/badge/hazemelerefey.github.io-0b0427?style=for-the-badge&labelColor=0b0427&color=a78bfa&logo=github&logoColor=a78bfa"/> </a>
 
