@@ -6,7 +6,7 @@
       <stop offset="50%" stop-color="#0b0427"/>
       <stop offset="100%" stop-color="#0a0320"/>
     </linearGradient>
-    <radialGradient id="bg-glow-c" cx="0.5" cy="0.45" r="0.5">
+    <radialGradient id="bg-glow" cx="0.5" cy="0.45" r="0.5">
       <stop offset="0%" stop-color="#1a0a4e" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#060212" stop-opacity="0"/>
     </radialGradient>
@@ -25,9 +25,6 @@
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="hero-clip">
-      <rect width="1200" height="380" rx="0"/>
-    </clipPath>
     <filter id="glow-sm">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -40,23 +37,12 @@
       <feGaussianBlur stdDeviation="12" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer>
-        <feFuncA type="linear" slope="0.04"/>
-      </feComponentTransfer>
-      <feBlend in="SourceGraphic" mode="overlay"/>
-    </filter>
   </defs>
 
-  <!-- Background layers -->
   <rect width="1200" height="380" fill="url(#bg-grad)"/>
-  <rect width="1200" height="380" fill="url(#bg-glow-c)"/>
+  <rect width="1200" height="380" fill="url(#bg-glow)"/>
   <rect width="1200" height="380" fill="url(#orbital-glow)" transform="translate(300,20)"/>
-  <rect width="1200" height="380" filter="url(#noise)" opacity="0.5"/>
 
-  <!-- Animated starfield -->
   <g opacity="0.6">
     <circle cx="82" cy="45" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
     <circle cx="215" cy="92" r="0.8" fill="#a78bfa"><animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
@@ -77,7 +63,6 @@
     <circle cx="960" cy="130" r="0.6" fill="#22d3ee"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- Perspective grid floor -->
   <g opacity="0.12" transform="translate(0,260)">
     <line x1="0" y1="0" x2="1200" y2="0" stroke="#22d3ee" stroke-width="1"/>
     <line x1="0" y1="25" x2="1200" y2="25" stroke="#22d3ee" stroke-width="0.5"/>
@@ -92,13 +77,11 @@
     <line x1="600" y1="0" x2="1200" y2="120" stroke="#22d3ee" stroke-width="0.3"/>
   </g>
 
-  <!-- Horizontal accent lines -->
   <g opacity="0.08">
     <line x1="0" y1="120" x2="1200" y2="120" stroke="#a78bfa" stroke-width="0.5"/>
     <line x1="0" y1="260" x2="1200" y2="260" stroke="#22d3ee" stroke-width="0.5"/>
   </g>
 
-  <!-- Corner HUD brackets -->
   <g stroke="#22d3ee" stroke-width="1.5" fill="none" opacity="0.4">
     <path d="M30,30 L30,10 L50,10"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/></path>
     <path d="M1170,30 L1170,10 L1150,10"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" begin="1s"/></path>
@@ -106,7 +89,6 @@
     <path d="M1170,350 L1170,370 L1150,370"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" begin="3s"/></path>
   </g>
 
-  <!-- Corner dots -->
   <g fill="#22d3ee" opacity="0.5">
     <circle cx="30" cy="30" r="2"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></circle>
     <circle cx="1170" cy="30" r="2"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" begin="1s"/></circle>
@@ -114,7 +96,6 @@
     <circle cx="1170" cy="350" r="2"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" begin="3s"/></circle>
   </g>
 
-  <!-- Floating geometric accents -->
   <g opacity="0.15">
     <rect x="90" y="70" width="40" height="40" rx="2" fill="none" stroke="#a78bfa" stroke-width="0.8" transform="rotate(45,110,90)">
       <animateTransform attributeName="transform" type="rotate" from="45 110 90" to="405 110 90" dur="20s" repeatCount="indefinite"/>
@@ -130,10 +111,8 @@
     </polygon>
   </g>
 
-  <!-- Central glow behind name -->
   <ellipse cx="600" cy="155" rx="400" ry="60" fill="#a78bfa" opacity="0.04" filter="url(#glow-lg)"/>
 
-  <!-- Horizontal accent lines flanking name -->
   <g opacity="0.3">
     <line x1="100" y1="155" x2="280" y2="155" stroke="url(#grid-fade)" stroke-width="1">
       <animate attributeName="x1" values="100;120;100" dur="6s" repeatCount="indefinite"/>
@@ -143,30 +122,17 @@
     </line>
   </g>
 
-  <!-- Decorative dots flanking name -->
   <g fill="#22d3ee" opacity="0.4">
     <circle cx="275" cy="155" r="2.5"/>
     <circle cx="925" cy="155" r="2.5"/>
   </g>
 
-  <!-- Main name with gradient + glow -->
-  <text x="600" y="168" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code','Cascadia Code',monospace" font-size="62" font-weight="800" fill="url(#name-grad)" filter="url(#glow-md)" letter-spacing="8">HAZEM ELEREFY</text>
+  <text x="600" y="168" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="62" font-weight="800" fill="url(#name-grad)" filter="url(#glow-md)" letter-spacing="8">HAZEM ELEREFY</text>
 
-  <!-- Role tagline -->
-  <text x="600" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',monospace" font-size="15" fill="#22d3ee" letter-spacing="3" opacity="0.85">APPLIED AI &amp; DATA ANALYST  ·  FRONTEND-DESIGN CRAFTSMAN</text>
+  <text x="600" y="210" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="15" fill="#22d3ee" letter-spacing="3" opacity="0.85">APPLIED AI &amp; DATA ANALYST  ·  FRONTEND-DESIGN CRAFTSMAN</text>
 
-  <!-- Tech keywords line -->
-  <text x="600" y="240" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',monospace" font-size="11" fill="#94a3b8" letter-spacing="2" opacity="0.5">SQL  ·  PYTHON  ·  POWER BI  ·  YOLO  ·  AUTONOMOUS AGENTS  ·  REACT  ·  THREE.JS</text>
+  <text x="600" y="240" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#94a3b8" letter-spacing="2" opacity="0.5">SQL  ·  PYTHON  ·  POWER BI  ·  YOLO  ·  AUTONOMOUS AGENTS  ·  REACT  ·  THREE.JS</text>
 
-  <!-- Scanline overlay -->
-  <g opacity="0.03">
-    <line x1="0" y1="0" x2="1200" y2="0" stroke="#fff" stroke-width="1">
-      <animate attributeName="y1" values="0;380;0" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="0;380;0" dur="8s" repeatCount="indefinite"/>
-    </line>
-  </g>
-
-  <!-- Bottom accent bar -->
   <rect x="0" y="370" width="1200" height="10" fill="url(#name-grad)" opacity="0.08"/>
   <line x1="0" y1="370" x2="1200" y2="370" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
 </svg>
