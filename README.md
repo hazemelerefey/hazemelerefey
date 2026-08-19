@@ -10,8 +10,8 @@
 
 <img src="assets/world/vol4-output.svg" width="100%" alt="Creative Output" />
 
-<a href="https://github.com/hazemelerefey/JobPulse"><img src="assets/world/card-jobpulse.svg" width="49.4%" alt="JobPulse — market intelligence command center" /></a><a href="https://github.com/hazemelerefey?tab=repositories"><img src="assets/world/card-healthcare.svg" width="49.4%" alt="Healthcare Operations Dashboard" /></a>
-<a href="https://github.com/hazemelerefey?tab=repositories"><img src="assets/world/card-ecommerce.svg" width="49.4%" alt="Global E-Commerce Sales Tracker" /></a><a href="https://github.com/hazemelerefey?tab=repositories"><img src="assets/world/card-azzar.svg" width="49.4%" alt="Azzar Auto Content Creation agent" /></a>
+<a href="https://github.com/hazemelerefey/JobPulse"><img src="assets/world/card-jobpulse.svg" width="49.4%" alt="JobPulse — market intelligence command center" /></a><a href="https://github.com/hazemelerefey/healthcare-operations-waitlist-dashboard"><img src="assets/world/card-healthcare.svg" width="49.4%" alt="Healthcare Operations Dashboard" /></a>
+<a href="https://github.com/hazemelerefey/global-ecommerce-sales-tracker"><img src="assets/world/card-ecommerce.svg" width="49.4%" alt="Global E-Commerce Sales Tracker" /></a><a href="https://github.com/hazemelerefey?tab=repositories"><img src="assets/world/card-azzar.svg" width="49.4%" alt="Azzar Auto Content Creation agent" /></a>
 
 <img src="assets/world/vol5-frontier.svg" width="100%" alt="Frontier — agentic AI and Web3 research" />
 
