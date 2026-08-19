@@ -55,10 +55,10 @@ text{-webkit-font-smoothing:antialiased;}
     <text x="64" y="56">VOL. II / THE CORE CONTINENT &#8212; COMPUTER VISION</text>
     <line x1="64" y1="72" x2="816" y2="72" stroke="#262626" stroke-width="1"/>
   </g>
-  <text x="64" y="116" class="pf" font-size="30" font-weight="700" letter-spacing="-1" fill="url(#silver2)">DAFE &#8212; Defect-Aware Feature Enhancement.</text>
+  <text x="64" y="116" class="pf" font-size="30" font-weight="700" letter-spacing="-1" fill="url(#silver2)">DAFEGate &#8212; Defect-Aware Feature Enhancement.</text>
   <g class="in" font-size="13" fill="#a6a6a6">
-    <text x="64" y="146">The finalized DigiSteel-YOLO gate: a dual-branch module fusing Sobel edge features with</text>
-    <text x="64" y="166">local-variance texture features, gated by channel attention and a learnable residual.</text>
+    <text x="64" y="146">The finalized DigiSteel-YOLO module &#8212; a dual-branch gate at P3 of YOLOv11n fusing Sobel edge</text>
+    <text x="64" y="166">features with local-variance texture features, gated by channel attention and an additive residual.</text>
   </g>
 
   <!-- wires row 1 -->
@@ -79,7 +79,7 @@ text{-webkit-font-smoothing:antialiased;}
     <rect x="64" y="230" width="84" height="70" fill="#0d0d0d" stroke="#333333" stroke-width="1"/>
     <rect x="64.5" y="230.5" width="83" height="69" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
   <text x="106" y="260" class="mo" font-size="11" fill="#fafafa" text-anchor="middle">INPUT X</text>
-  <text x="106" y="278" class="mo" font-size="8" fill="#666666" text-anchor="middle">(B, C, H, W)</text>
+  <text x="106" y="278" class="mo" font-size="8" fill="#666666" text-anchor="middle">P3 (B,256,80,80)</text>
 
   <!-- EDGE BRANCH -->
   
@@ -152,7 +152,7 @@ text{-webkit-font-smoothing:antialiased;}
   <!-- alpha gate -->
   <circle cx="520" cy="384" r="16" fill="#0d0d0d" stroke="#e69d31" stroke-width="1.2"/>
   <text x="520" y="388" class="mo" font-size="10" fill="#e69d31" text-anchor="middle">&#215;&#945;</text>
-  <text x="520" y="424" class="mo" font-size="8" fill="#666666" text-anchor="middle">&#945; = &#963;(&#8722;2.2) &#8776; 0.1 &#183; LEARNABLE</text>
+  <text x="520" y="424" class="mo" font-size="8" fill="#666666" text-anchor="middle">&#945; = &#963;(&#8722;2.2) &#8776; 0.1 &#183; ADDITIVE RESIDUAL &#183; GRADIENT 1.0 THROUGH SKIP</text>
 
   <!-- residual add + output -->
   <circle cx="488" cy="384" r="0" />
@@ -193,8 +193,8 @@ text{-webkit-font-smoothing:antialiased;}
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4.2s" begin="0.4s" repeatCount="indefinite"/></circle>
 
   <!-- edge/texture labels -->
-  <text x="372" y="252" class="mo" font-size="7.5" fill="#666666" text-anchor="middle">C/2</text>
-  <text x="574" y="252" class="mo" font-size="7.5" fill="#666666" text-anchor="middle">C/2</text>
+  <text x="372" y="252" class="mo" font-size="7.5" fill="#666666" text-anchor="middle">128</text>
+  <text x="574" y="252" class="mo" font-size="7.5" fill="#666666" text-anchor="middle">128</text>
 
   <!-- results strip -->
   <g transform="translate(64,468)">
@@ -202,19 +202,19 @@ text{-webkit-font-smoothing:antialiased;}
     <g transform="translate(0,0)">
       <rect width="178" height="66" fill="#0d0d0d" stroke="#262626"/>
       <text x="14" y="20" class="mo" font-size="8" letter-spacing="2" fill="#666666">MAP@50</text>
-      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">0.788</text>
-      <text x="14" y="58" class="mo" font-size="7.5" letter-spacing="1" fill="#a6a6a6">+3.0 VS BASELINE</text>
+      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">0.820</text>
+      <text x="14" y="58" class="mo" font-size="7.5" letter-spacing="1" fill="#a6a6a6">+6.2 VS BASELINE</text>
     </g>
     <g transform="translate(194,0)">
       <rect width="178" height="66" fill="#0d0d0d" stroke="#262626"/>
-      <text x="14" y="20" class="mo" font-size="8" letter-spacing="2" fill="#666666">DATASET</text>
-      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">NEU-DET</text>
-      <text x="14" y="58" class="mo" font-size="7.5" letter-spacing="1" fill="#a6a6a6">6 DEFECT CLASSES</text>
+      <text x="14" y="20" class="mo" font-size="8" letter-spacing="2" fill="#666666">MAP@50:95</text>
+      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">0.468</text>
+      <text x="14" y="58" class="mo" font-size="7.5" letter-spacing="1" fill="#a6a6a6">NEU-DET &#183; 6 CLASSES</text>
     </g>
     <g transform="translate(388,0)">
       <rect width="178" height="66" fill="#0d0d0d" stroke="#262626"/>
       <text x="14" y="20" class="mo" font-size="8" letter-spacing="2" fill="#666666">BEST CLASS</text>
-      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">0.973</text>
+      <text x="14" y="44" class="pf" font-size="20" font-weight="700" fill="#fafafa">0.989</text>
       <text x="14" y="58" class="mo" font-size="7.5" letter-spacing="1" fill="#a6a6a6">SCRATCHES AP@50</text>
     </g>
     <g transform="translate(582,0)">
@@ -225,6 +225,6 @@ text{-webkit-font-smoothing:antialiased;}
     </g>
   </g>
   <text x="64" y="576" class="in" font-size="12" fill="#666666">First systematic evaluation of YOLO robustness to real-world degradations in industrial steel inspection.</text>
-  <text x="816" y="116" class="mo" font-size="9" letter-spacing="2.5" fill="#e69d31" text-anchor="end">FLAGSHIP RESEARCH</text>
+  <text x="816" y="56" class="mo" font-size="9" letter-spacing="2.5" fill="#e69d31" text-anchor="end">FLAGSHIP RESEARCH</text>
 <rect width="880" height="620" filter="url(#grain2)" opacity="0.05"/>
 </svg>

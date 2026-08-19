@@ -4,7 +4,7 @@
 
 <img src="assets/world/vol1-identity.svg" width="100%" alt="Identity — data into insights, designs into experiences" />
 
-<a href="https://github.com/hazemelerefey/DigiSteel-YOLO"><img src="assets/world/vol2-core.svg" width="100%" alt="The Core Continent — computer vision and the DigiSteel-YOLO flagship research" /></a>
+<a href="https://github.com/hazemelerefey/DigiSteel-YOLO"><img src="assets/world/vol2-core.svg" width="100%" alt="The Core Continent — the DAFEGate module inside DigiSteel-YOLO, 82.0% mAP@0.5 on NEU-DET" /></a>
 
 <img src="assets/world/vol3-matrix.svg" width="100%" alt="Competency Matrix — data and AI, web, and infrastructure skills" />
 
