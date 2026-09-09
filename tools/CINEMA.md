@@ -1,4 +1,4 @@
-# HAZEMFLIX asset maintenance
+# Hazem Elerefy asset maintenance
 
 The profile is ordinary GitHub Markdown with self-contained SVG images. No JavaScript, external fonts, statistics endpoints or scheduled jobs are required.
 

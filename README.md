@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/cinema/hero.svg" width="100%" alt="HAZEMFLIX — Hazem Elerefy. AI Engineer and Frontend Developer. Intelligence is the main character.">
+<img src="assets/cinema/hero.svg" width="100%" alt="Hazem Elerefy — AI Engineer and Frontend Developer. Intelligence is the main character.">
 
 <a href="https://hazemelerefy.vercel.app"><picture><source media="(max-width: 640px)" srcset="assets/cinema/button-play-mobile.svg"><img src="assets/cinema/button-play.svg" width="32.6%" alt="Play portfolio — open my personal website"></picture></a>
 <a href="#the-catalog"><picture><source media="(max-width: 640px)" srcset="assets/cinema/button-catalog-mobile.svg"><img src="assets/cinema/button-catalog.svg" width="32.6%" alt="Browse the project catalog below"></picture></a>
@@ -70,4 +70,4 @@ My path connects data analysis, deep learning and frontend development. I work a
 <a href="https://github.com/hazemelerefey?tab=repositories"><strong>All projects</strong></a>
 </p>
 
-<p align="center"><sub>HAZEMFLIX · Original project key art</sub></p>
+<p align="center"><sub>Hazem Elerefy · Original project key art</sub></p>

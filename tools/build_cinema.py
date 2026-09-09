@@ -53,7 +53,7 @@ DEFS='''
 '''
 
 def save(name,w,h,body,title):
-    svg=f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc"><title id="title">{html.escape(title)}</title><desc id="desc">Original HAZEMFLIX artwork. Decorative animation respects reduced-motion preferences.</desc><defs>{DEFS}<clipPath id="bounds"><rect width="{w}" height="{h}" rx="8"/></clipPath></defs><style>{CSS}</style><g clip-path="url(#bounds)"><rect width="{w}" height="{h}" fill="{BASE}"/>{body}</g></svg>'
+    svg=f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc"><title id="title">{html.escape(title)}</title><desc id="desc">Original Hazem Elerefy artwork. Decorative animation respects reduced-motion preferences.</desc><defs>{DEFS}<clipPath id="bounds"><rect width="{w}" height="{h}" rx="8"/></clipPath></defs><style>{CSS}</style><g clip-path="url(#bounds)"><rect width="{w}" height="{h}" fill="{BASE}"/>{body}</g></svg>'
     (OUT/(name+'.svg')).write_text(svg)
 
 def art(name,w,h):
@@ -86,7 +86,7 @@ def hero():
     for i in range(31):
         x=290+i*20
         opening+=rect(x,-20,3+(i%4)*2,440,['#65070e','#e50914','#ff253a','#8e1020'][i%4],extra=f'style="animation:ribbon 1.5s cubic-bezier(.22,.61,.36,1) both;animation-delay:{i*.011:.3f}s"')
-    opening+=rect(324,150,550,100,BASE,8)+text('HAZEMFLIX',362,219,64,RED,2,bold=True)
+    opening+=rect(300,150,600,100,BASE,8)+text('Hazem Elerefy',350,216,52,RED,1,bold=True)
     s+='<g opacity="0" style="animation:opening 1.8s ease-out both">'+opening+'</g>'
     save('hero',1200,400,s,'Hazem Elerefy · AI Engineer / Frontend Developer. Intelligence is the main character.')
 
