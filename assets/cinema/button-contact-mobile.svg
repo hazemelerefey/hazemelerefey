@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="100" viewBox="0 0 280 100" role="img" aria-labelledby="title desc"><title id="title">CONTACT</title><desc id="desc">Original HAZEMFLIX artwork. Decorative animation respects reduced-motion preferences.</desc><defs>
+<linearGradient id="shade" x2="0" y2="1"><stop stop-color="#09090c" stop-opacity="0"/><stop offset="1" stop-color="#09090c"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#e50914" stop-opacity=".48"/><stop offset="1" stop-color="#e50914" stop-opacity="0"/></radialGradient>
+<radialGradient id="blue"><stop stop-color="#44bce4" stop-opacity=".42"/><stop offset="1" stop-color="#44bce4" stop-opacity="0"/></radialGradient>
+<radialGradient id="violet"><stop stop-color="#8b55ed" stop-opacity=".45"/><stop offset="1" stop-color="#8b55ed" stop-opacity="0"/></radialGradient>
+<clipPath id="bounds"><rect width="280" height="100" rx="8"/></clipPath></defs><style>
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:.9}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes orbit{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
+@keyframes scan{0%{transform:translateY(-220px);opacity:0}12%{opacity:.85}85%{opacity:.7}100%{transform:translateY(300px);opacity:0}}
+@keyframes dash{to{stroke-dashoffset:-600}}
+@keyframes ember{0%{transform:translate(0,0);opacity:0}18%{opacity:.85}82%{opacity:.6}100%{transform:translate(20px,-140px);opacity:0}}
+@keyframes reveal{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+@keyframes runner{0%{transform:translateX(-170px)}100%{transform:translateX(1250px)}}
+@keyframes opening{0%,22%{opacity:1}100%{opacity:0;visibility:hidden}}
+@keyframes ribbon{0%{transform:translateY(430px)}45%{transform:translateY(0)}100%{transform:translateY(-430px)}}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.orbit{animation:orbit 8s ease-in-out infinite}
+.spin{animation:spin 30s linear infinite;transform-box:fill-box;transform-origin:center}
+.flow{stroke-dasharray:8 28;animation:dash 14s linear infinite}
+.scan{animation:scan 7s ease-in-out infinite}
+.ember{animation:ember 6s linear infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.scan,.ember,.runner{opacity:0!important}}
+</style><g clip-path="url(#bounds)"><rect width="280" height="100" fill="#09090c"/><rect x="0" y="0" width="280" height="100" rx="8" fill="#202025" /><g fill="#f3f0e8" stroke="#f3f0e8" stroke-width="0.5" aria-label="CONTACT"><path d="M1319 1378V1165Q1217 1260 1101.5 1307.0Q986 1354 856 1354Q600 1354 464.0 1197.5Q328 1041 328 745Q328 450 464.0 293.5Q600 137 856 137Q986 137 1101.5 184.0Q1217 231 1319 326V115Q1213 43 1094.5 7.0Q976 -29 844 -29Q505 -29 310.0 178.5Q115 386 115 745Q115 1105 310.0 1312.5Q505 1520 844 1520Q978 1520 1096.5 1484.5Q1215 1449 1319 1378Z" transform="translate(22.00 60) scale(0.014648 -0.014648)"/><path d="M807 1356Q587 1356 457.5 1192.0Q328 1028 328 745Q328 463 457.5 299.0Q587 135 807 135Q1027 135 1155.5 299.0Q1284 463 1284 745Q1284 1028 1155.5 1192.0Q1027 1356 807 1356ZM807 1520Q1121 1520 1309.0 1309.5Q1497 1099 1497 745Q1497 392 1309.0 181.5Q1121 -29 807 -29Q492 -29 303.5 181.0Q115 391 115 745Q115 1099 303.5 1309.5Q492 1520 807 1520Z" transform="translate(43.95 60) scale(0.014648 -0.014648)"/><path d="M201 1493H473L1135 244V1493H1331V0H1059L397 1249V0H201Z" transform="translate(68.56 60) scale(0.014648 -0.014648)"/><path d="M-6 1493H1257V1323H727V0H524V1323H-6Z" transform="translate(92.00 60) scale(0.014648 -0.014648)"/><path d="M700 1294 426 551H975ZM586 1493H815L1384 0H1174L1038 383H365L229 0H16Z" transform="translate(111.33 60) scale(0.014648 -0.014648)"/><path d="M1319 1378V1165Q1217 1260 1101.5 1307.0Q986 1354 856 1354Q600 1354 464.0 1197.5Q328 1041 328 745Q328 450 464.0 293.5Q600 137 856 137Q986 137 1101.5 184.0Q1217 231 1319 326V115Q1213 43 1094.5 7.0Q976 -29 844 -29Q505 -29 310.0 178.5Q115 386 115 745Q115 1105 310.0 1312.5Q505 1520 844 1520Q978 1520 1096.5 1484.5Q1215 1449 1319 1378Z" transform="translate(132.85 60) scale(0.014648 -0.014648)"/><path d="M-6 1493H1257V1323H727V0H524V1323H-6Z" transform="translate(154.80 60) scale(0.014648 -0.014648)"/></g></g></svg>
