@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="AZAR theme banner: a hooded figure before streams of violet and cyan arcane energy" width="100%">
+<img src="assets/banner.gif" alt="Azar: a hooded figure in black and gold before a supernatural storm of arcane blue lightning" width="100%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+AI+Developer;Deep+Learning+%7C+AI+Automation+%7C+LLMs;I+build+machines+that+see" alt="Typing animation: Hazem Elerefy, Computer Vision and AI Developer">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1200&color=E8B33C&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+AI+Developer;Deep+Learning+%7C+AI+Automation+%7C+LLMs;I+build+machines+that+see" alt="Typing animation: Hazem Elerefy, Computer Vision and AI Developer">
+
+<img src="assets/divider.gif" alt="" width="100%">
 
 </div>
 
@@ -21,6 +23,8 @@ location:   Cairo, Egypt
 languages:  Arabic (native), English (professional working)
 ```
 
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
 ## Three crafts, one loop
 
 | Craft | What it looks like in practice |
@@ -29,35 +33,41 @@ languages:  Arabic (native), English (professional working)
 | **Automate** | n8n pipelines and LLM APIs that do real work: collecting signals, drafting content, validating output before anything ships. |
 | **Design** | Interfaces and brand visuals with intent. The design years are why my demos do not look like homework. |
 
-## Toolbox
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
+## Arsenal
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0A0A12?style=for-the-badge&logo=python&logoColor=22D3EE)
-![PyTorch](https://img.shields.io/badge/PyTorch-0A0A12?style=for-the-badge&logo=pytorch&logoColor=8B5CF6)
-![FastAPI](https://img.shields.io/badge/FastAPI-0A0A12?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
-![Docker](https://img.shields.io/badge/Docker-0A0A12?style=for-the-badge&logo=docker&logoColor=8B5CF6)
-![n8n](https://img.shields.io/badge/n8n-0A0A12?style=for-the-badge&logo=n8n&logoColor=22D3EE)
-![React](https://img.shields.io/badge/React-0A0A12?style=for-the-badge&logo=react&logoColor=8B5CF6)
-![Next.js](https://img.shields.io/badge/Next.js-0A0A12?style=for-the-badge&logo=nextdotjs&logoColor=22D3EE)
-![TypeScript](https://img.shields.io/badge/TypeScript-0A0A12?style=for-the-badge&logo=typescript&logoColor=8B5CF6)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A12?style=for-the-badge&logo=postgresql&logoColor=22D3EE)
-![Power BI](https://img.shields.io/badge/Power_BI-0A0A12?style=for-the-badge&logo=powerbi&logoColor=8B5CF6)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0A0A12?style=for-the-badge&logo=huggingface&logoColor=22D3EE)
-![Linux](https://img.shields.io/badge/Linux-0A0A12?style=for-the-badge&logo=linux&logoColor=8B5CF6)
+![Python](https://img.shields.io/badge/Python-0B0B10?style=for-the-badge&logo=python&logoColor=35E0FF)
+![PyTorch](https://img.shields.io/badge/PyTorch-0B0B10?style=for-the-badge&logo=pytorch&logoColor=E8B33C)
+![FastAPI](https://img.shields.io/badge/FastAPI-0B0B10?style=for-the-badge&logo=fastapi&logoColor=35E0FF)
+![Docker](https://img.shields.io/badge/Docker-0B0B10?style=for-the-badge&logo=docker&logoColor=E8B33C)
+![n8n](https://img.shields.io/badge/n8n-0B0B10?style=for-the-badge&logo=n8n&logoColor=35E0FF)
+![React](https://img.shields.io/badge/React-0B0B10?style=for-the-badge&logo=react&logoColor=E8B33C)
+![Next.js](https://img.shields.io/badge/Next.js-0B0B10?style=for-the-badge&logo=nextdotjs&logoColor=35E0FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-0B0B10?style=for-the-badge&logo=typescript&logoColor=E8B33C)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B0B10?style=for-the-badge&logo=postgresql&logoColor=35E0FF)
+![Power BI](https://img.shields.io/badge/Power_BI-0B0B10?style=for-the-badge&logo=powerbi&logoColor=E8B33C)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0B0B10?style=for-the-badge&logo=huggingface&logoColor=35E0FF)
+![Linux](https://img.shields.io/badge/Linux-0B0B10?style=for-the-badge&logo=linux&logoColor=E8B33C)
 
 </div>
+
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
 
 ## By the numbers
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hazemelerefey&show_icons=true&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&bg_color=0A0A12&border_color=8B5CF6" alt="Hazem's GitHub stats" height="170">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hazemelerefey&background=0A0A12&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&border=8B5CF6" alt="Hazem's GitHub streak" height="170">
+<img src="https://github-readme-stats.vercel.app/api?username=hazemelerefey&show_icons=true&title_color=E8B33C&text_color=C9D1D9&icon_color=35E0FF&bg_color=0B0B10&border_color=E8B33C" alt="Hazem's GitHub stats" height="170">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hazemelerefey&background=0B0B10&ring=E8B33C&fire=35E0FF&currStreakLabel=E8B33C&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&border=E8B33C" alt="Hazem's GitHub streak" height="170">
 
 </div>
 
-## Selected work
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
+## Relics of the forge
 
 <table>
 <tr>
@@ -118,15 +128,26 @@ Collects signals from Reddit, Hacker News, Product Hunt, and Google Trends, dedu
 </tr>
 </table>
 
-## The trail
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
+## The serpent's trail
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-snake.svg" alt="Contribution snake animation">
+<img src="assets/serpent.gif" alt="Azar's terrifying shadow serpent" width="70%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/azar-snake-dark.svg">
+  <img alt="Azar's golden serpent devouring the contribution grid" src="assets/azar-snake.svg" width="100%">
+</picture>
+
+*Every square the serpent devours is a day the forge was lit.*
 
 </div>
 
-## Credentials
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
+## Seals and sigils
 
 - Microsoft Certified: Power BI Data Analyst Associate (July 2026)
 - Specialized Diploma in Applied AI and Data Analytics, Digilians / MCIT (September 2026)
@@ -135,15 +156,17 @@ Collects signals from Reddit, Hacker News, Product Hunt, and Google Trends, dedu
 - Introduction to Deep Learning and Neural Networks with Keras, IBM / Coursera (April 2026)
 - Nanodegree in Front-End Web Development, Egypt FWD / Udacity (April 2022)
 
-## Get in touch
+<div align="center"><img src="assets/divider.gif" alt="" width="100%"></div>
+
+## Summon me
 
 I am open to conversations about computer vision, applied AI, and interface design. Email is the fastest way to reach me.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A0A12?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://hazemelerefy.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A12?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://linkedin.com/in/hazemelerefy)
-[![Email](https://img.shields.io/badge/Email-0A0A12?style=for-the-badge&logo=gmail&logoColor=8B5CF6)](mailto:hazemelerefy@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0B0B10?style=for-the-badge&logo=vercel&logoColor=E8B33C)](https://hazemelerefy.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0B10?style=for-the-badge&logo=linkedin&logoColor=35E0FF)](https://linkedin.com/in/hazemelerefy)
+[![Email](https://img.shields.io/badge/Email-0B0B10?style=for-the-badge&logo=gmail&logoColor=E8B33C)](mailto:hazemelerefy@gmail.com)
 
 *Forged in the dark, shipped in the light.*
 
