@@ -1,103 +1,130 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Hazem Elerefy, AI Engineer, front-end developer and designer, shown as a live object-detection frame that finds his six disciplines" width="100%">
+<img src="assets/banner.png" alt="AZAR theme banner: a hooded figure before streams of violet and cyan arcane energy" width="100%">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+AI+Developer;Deep+Learning+%7C+AI+Automation+%7C+LLMs;I+build+machines+that+see" alt="Typing animation: Hazem Elerefy, Computer Vision and AI Developer">
 
 </div>
 
-## Hi, I'm Hazem
+## The figure in the dark
 
-I design interfaces, build them, and now teach machines to see.
-My path runs from front-end development through UI/UX and graphic design to AI engineering, and each step still shows up in how I work: I care how a thing looks, how it runs, and whether it can be trusted.
-Today I'm an **AI Engineer at VO Technology**, based in Cairo.
+I am Hazem Elerefy, an AI engineer based in Cairo. I work where deep learning meets real products: I train models, I automate workflows, and I design the interfaces people touch. My path runs from front-end development through UI/UX and graphic design into AI, and every step still shows up in the work. I care how a thing looks, how it runs, and whether it can be trusted.
+
+Right now I am an **AI Engineer at VO Technology**, and I am open to freelance and remote work worldwide.
 
 ```yaml
-name:        Hazem Elerefy
-now:         AI Engineer at VO Technology
-before:      Front-End Developer · UI/UX Designer (freelance) · Graphic Designer (theatre group, Port Said University)
-focus:       computer vision · deep learning · APIs · workflow automation
-location:    Cairo, Egypt
-languages:   Arabic (native), English (professional working)
+name:       Hazem Elerefy
+now:        AI Engineer at VO Technology
+before:     Front-End Developer, UI/UX Designer, Graphic Designer
+obsessed:   computer vision, deep learning, AI automation, LLM applications
+location:   Cairo, Egypt
+languages:  Arabic (native), English (professional working)
 ```
 
-## The training curve
+## Three crafts, one loop
 
-<img src="assets/timeline.svg" alt="Timeline: Front-End Developer from November 2021, UI/UX Designer freelance, Graphic Designer in the Port Said University theatre group, Applied AI and Data Analytics in December 2025, and AI Engineer at VO Technology on 10 October 2026" width="100%">
-
-Every month is an epoch. I started as a front-end developer in November 2021, took on freelance UI/UX work, designed for a university theatre group, then retrained in applied AI and data analytics in December 2025.
-On 10 October 2026 I'm an AI engineer, and the design and front-end years are the reason my models don't stay in notebooks.
-
-## Three disciplines, one loop
-
-```mermaid
-flowchart LR
-    A["Design<br/>UI/UX · graphics"] --> B["Build<br/>React · TypeScript · FastAPI"]
-    B --> C["Teach<br/>PyTorch · YOLO · deep learning"]
-    C --> D["Ship<br/>Docker · Hugging Face Spaces"]
-    D -. feedback .-> A
-```
-
-| Discipline | What it means in practice |
+| Craft | What it looks like in practice |
 |---|---|
-| **Design** | UI/UX design as a freelancer and poster and stage graphics for a university theatre group. I think about the person using the thing before I write code. |
-| **Build** | Front-end with React, TypeScript, JavaScript, and Next.js. Back-end with FastAPI, REST APIs, SQL, and PostgreSQL. |
-| **Teach machines** | Object detection, model training and evaluation in PyTorch and YOLO, and LLM-powered automation in n8n. |
-| **Ship** | Docker containers, Gradio demos, and Hugging Face Spaces, so people can try the work instead of reading about it. |
-
-## Selected work
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**DAFEsteel**](https://github.com/hazemelerefey/DAFEsteel) ([demo](https://huggingface.co/spaces/hazemelerefy/DAFEsteel)) | Steel-surface defect detector for six defect classes on NEU-DET. I led a six-person team through the Digilians graduation project. | PyTorch, YOLOv11n, FastAPI, Docker, Gradio |
-| [**NeuroScope**](https://github.com/hazemelerefey/NeuroScope) | A 3D browser tool for arranging neural-network layers and exporting PyTorch or TensorFlow code. My design, front-end, and deep-learning sides in one project. | React, Three.js, Zustand, Tailwind CSS, Vite |
-| [**Social Intelligence Publisher**](https://github.com/hazemelerefey/social-intelligence-publisher) | Ranks stories from Hacker News and Dev.to, drafts Arabic posts, validates them, and publishes to Facebook Pages with source attribution. | n8n, GPT-4.1-mini, Meta Graph API |
-| [**Market Signal Intelligence Engine**](https://github.com/hazemelerefey/market-signal-intelligence-engine) | Collects signals from Reddit, Hacker News, Product Hunt, and Google Trends, deduplicates them, and writes briefs with ranked themes, risks, and actions. | n8n, LLM APIs, JSON Schema |
-
-<details>
-<summary><b>Inside DAFEsteel</b>: how the model is improved and served</summary>
-
-<br>
-
-<img src="assets/dafegate.svg" alt="DAFEGate architecture and mAP improvement from 75.4 to 81.98" width="100%">
-
-I designed **DAFEGate**, an enhancement for YOLOv11n that combines learned edge features, local variance analysis, channel attention, and residual refinement.
-Over 18 experiments, mAP@0.5 rose from 75.4% to 81.98% with a 2.69-million-parameter model, which I packaged as a Dockerized FastAPI service with a Hugging Face demo.
-
-</details>
-
-<details>
-<summary><b>Inside the n8n workflows</b>: two pipelines, same rule</summary>
-
-<br>
-
-```mermaid
-flowchart LR
-    A[Sources] --> B[Collect, clean, deduplicate]
-    B --> C[LLM drafts or analyses]
-    C --> D{Schema or structure check}
-    D -- valid --> E[Publish or deliver brief]
-    D -- invalid --> C
-```
-
-In both projects an LLM's output has to pass a check before it goes anywhere. I'd rather a pipeline refuse to publish than publish something malformed.
-
-</details>
-
-## How I work
-
-- **Design first, then build.** I sketch the experience before choosing the tools.
-- **Measure before I claim.** Numbers come from experiments, not impressions.
-- **Validate what a model says.** Output passes a check before it reaches a user.
-- **Ship it.** A model nobody can open is only a file.
+| **See** | Object detection and deep learning in PyTorch and YOLO. I take models from experiment to production, not from tutorial to notebook. |
+| **Automate** | n8n pipelines and LLM APIs that do real work: collecting signals, drafting content, validating output before anything ships. |
+| **Design** | Interfaces and brand visuals with intent. The design years are why my demos do not look like homework. |
 
 ## Toolbox
 
-| Area | What I use |
-|---|---|
-| Vision and ML | Python, PyTorch, YOLO, object detection, deep learning, model training and evaluation, scikit-learn |
-| Automation and AI | n8n, LLM APIs, Meta Graph API, data ingestion, transformation, deduplication, JSON Schema validation |
-| Backend and deployment | FastAPI, REST APIs, Docker, Gradio, Hugging Face Spaces |
-| Front-end and design | React, TypeScript, JavaScript, Next.js, HTML, CSS, UI/UX design, graphic design |
-| Data and tooling | PostgreSQL, SQL, Pandas, NumPy, Power BI, Excel, Git, Linux |
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0A0A12?style=for-the-badge&logo=python&logoColor=22D3EE)
+![PyTorch](https://img.shields.io/badge/PyTorch-0A0A12?style=for-the-badge&logo=pytorch&logoColor=8B5CF6)
+![FastAPI](https://img.shields.io/badge/FastAPI-0A0A12?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
+![Docker](https://img.shields.io/badge/Docker-0A0A12?style=for-the-badge&logo=docker&logoColor=8B5CF6)
+![n8n](https://img.shields.io/badge/n8n-0A0A12?style=for-the-badge&logo=n8n&logoColor=22D3EE)
+![React](https://img.shields.io/badge/React-0A0A12?style=for-the-badge&logo=react&logoColor=8B5CF6)
+![Next.js](https://img.shields.io/badge/Next.js-0A0A12?style=for-the-badge&logo=nextdotjs&logoColor=22D3EE)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A0A12?style=for-the-badge&logo=typescript&logoColor=8B5CF6)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A12?style=for-the-badge&logo=postgresql&logoColor=22D3EE)
+![Power BI](https://img.shields.io/badge/Power_BI-0A0A12?style=for-the-badge&logo=powerbi&logoColor=8B5CF6)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0A0A12?style=for-the-badge&logo=huggingface&logoColor=22D3EE)
+![Linux](https://img.shields.io/badge/Linux-0A0A12?style=for-the-badge&logo=linux&logoColor=8B5CF6)
+
+</div>
+
+## By the numbers
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=hazemelerefey&show_icons=true&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&bg_color=0A0A12&border_color=8B5CF6" alt="Hazem's GitHub stats" height="170">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hazemelerefey&background=0A0A12&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&border=8B5CF6" alt="Hazem's GitHub streak" height="170">
+
+</div>
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### DAFEsteel
+
+<a href="https://github.com/hazemelerefey/DAFEsteel"><img src="assets/projects/dafesteel.png" alt="DAFEsteel banner"></a>
+
+Steel-surface defect detector for six defect classes on NEU-DET. I led a six-person team, designed the DAFEGate enhancement for YOLOv11n, and lifted mAP@0.5 from 75.4% to 81.98% over 18 experiments. Shipped as a Dockerized FastAPI service with a live Hugging Face demo.
+
+`PyTorch` `YOLOv11n` `FastAPI` `Docker` `Gradio`
+
+[Code](https://github.com/hazemelerefey/DAFEsteel) · [Live demo](https://huggingface.co/spaces/hazemelerefy/DAFEsteel)
+
+</td>
+<td width="50%" valign="top">
+
+### NeuroScope
+
+<a href="https://github.com/hazemelerefey/NeuroScope"><img src="assets/projects/neuroscope.png" alt="NeuroScope banner"></a>
+
+A 3D browser tool for arranging neural-network layers and exporting PyTorch or TensorFlow code. My design, front-end, and deep-learning sides in one project.
+
+`React` `Three.js` `Zustand` `Tailwind CSS` `Vite`
+
+[Code](https://github.com/hazemelerefey/NeuroScope)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Social Intelligence Publisher
+
+<a href="https://github.com/hazemelerefey/social-intelligence-publisher"><img src="assets/projects/social-publisher.png" alt="Social Intelligence Publisher banner"></a>
+
+An n8n pipeline that ranks tech stories from Hacker News and Dev.to, drafts structured Arabic posts with GPT-4.1-mini, validates them, and publishes to Facebook via the Meta Graph API.
+
+`n8n` `GPT-4.1-mini` `Meta Graph API`
+
+[Code](https://github.com/hazemelerefey/social-intelligence-publisher)
+
+</td>
+<td width="50%" valign="top">
+
+### Market Signal Intelligence Engine
+
+<a href="https://github.com/hazemelerefey/market-signal-intelligence-engine"><img src="assets/projects/market-engine.png" alt="Market Signal Intelligence Engine banner"></a>
+
+Collects signals from Reddit, Hacker News, Product Hunt, and Google Trends, deduplicates them, and writes schema-validated executive briefs with ranked themes, risks, and actions.
+
+`n8n` `LLM APIs` `JSON Schema`
+
+[Code](https://github.com/hazemelerefey/market-signal-intelligence-engine)
+
+</td>
+</tr>
+</table>
+
+## The trail
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/hazemelerefey/hazemelerefey/output/github-snake.svg" alt="Contribution snake animation">
+
+</div>
 
 ## Credentials
 
@@ -105,12 +132,19 @@ In both projects an LLM's output has to pass a check before it goes anywhere. I'
 - Specialized Diploma in Applied AI and Data Analytics, Digilians / MCIT (September 2026)
 - AI Agent Fundamentals with Azure AI Foundry, Microsoft / Coursera (July 2026)
 - Generative AI: Prompt Engineering Basics, IBM / Coursera (May 2026)
-- Introduction to Deep Learning & Neural Networks with Keras, IBM / Coursera (April 2026)
-- Bachelor of Laws (LL.B.), Commercial and Corporate Law, Port Said University (June 2024)
+- Introduction to Deep Learning and Neural Networks with Keras, IBM / Coursera (April 2026)
 - Nanodegree in Front-End Web Development, Egypt FWD / Udacity (April 2022)
 
 ## Get in touch
 
-I'm open to conversations about computer vision, applied AI, and interface design. Email is the fastest way to reach me.
+I am open to conversations about computer vision, applied AI, and interface design. Email is the fastest way to reach me.
 
-[Portfolio](https://hazemelerefy.vercel.app) · [LinkedIn](https://linkedin.com/in/hazemelerefy) · [Email](mailto:hazemelerefy@gmail.com)
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A0A12?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://hazemelerefy.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A12?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://linkedin.com/in/hazemelerefy)
+[![Email](https://img.shields.io/badge/Email-0A0A12?style=for-the-badge&logo=gmail&logoColor=8B5CF6)](mailto:hazemelerefy@gmail.com)
+
+*Forged in the dark, shipped in the light.*
+
+</div>
