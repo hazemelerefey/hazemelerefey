@@ -2,7 +2,7 @@
 
 <img src="assets/banner.gif" alt="Azar: a hooded figure in black and gold before a supernatural storm of arcane blue lightning" width="100%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1200&color=E8B33C&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+AI+Developer;Deep+Learning+%7C+AI+Automation+%7C+LLMs;I+build+machines+that+see" alt="Typing animation: Hazem Elerefy, Computer Vision and AI Developer">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=1200&color=E8B33C&center=true&vCenter=true&width=620&lines=AI+Engineer+%7C+LLM+Agents;Generative+AI+%7C+RAG+%26+Deep+Learning;I+build+machines+that+see" alt="Typing animation: Hazem Elerefy, AI Engineer">
 
 <img src="assets/divider.gif" alt="" width="100%">
 
@@ -12,11 +12,11 @@
 
 I am Hazem Elerefy, an AI engineer based in Cairo. I work where deep learning meets real products: I train models, I automate workflows, and I design the interfaces people touch. My path runs from front-end development through UI/UX and graphic design into AI, and every step still shows up in the work. I care how a thing looks, how it runs, and whether it can be trusted.
 
-Right now I am an **AI Engineer at VO Technology**, and I am open to freelance and remote work worldwide.
+Right now I am an **AI Engineer at VO For Technology**, and I am open to freelance and remote work worldwide.
 
 ```yaml
 name:       Hazem Elerefy
-now:        AI Engineer at VO Technology
+now:        AI Engineer at VO For Technology
 before:     Front-End Developer, UI/UX Designer, Graphic Designer
 obsessed:   computer vision, deep learning, AI automation, LLM applications
 location:   Cairo, Egypt
