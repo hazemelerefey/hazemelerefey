@@ -34,7 +34,7 @@ Customer care in Egypt runs on dialect-heavy voicemail triaged by hand, and the 
 
 Result: combined macro-F1 0.7941 against 0.7113 for a TF-IDF baseline, on a consented corpus of 6,522 voicemails with five seeds, and 89.33% routing agreement. Vocal-tone emotion inference was tried and did not separate classes, so urgency comes from text only.
 
-Product: a bilingual console with full RTL, role-based access, audio encrypted at rest, an immutable audit log and live updates. One-command Docker deploy on CPU or GPU, plus a separate label-audit app for 5,196 voicemails.
+Product: a bilingual console with full RTL, role-based access, audio encrypted at rest, an immutable audit log and live updates. One-command Docker deploy on CPU or GPU, plus a separate dataset audit tool, used to review 5,196 voicemails before training and not part of the product.
 
 [Code](https://github.com/hazemelerefey/smart-voicemail-router)
 
