@@ -12,6 +12,8 @@ AI Engineer at VO for Technology since October 2026. Before that I was a front-e
 
 ### DAFEsteel: steel-surface defect detection
 
+<img src="https://raw.githubusercontent.com/hazemelerefey/DAFEsteel/main/figures/06c_Figure5_Comparison_scratches_103.jpg" alt="Scratch detection, stock YOLOv11n on the left and DAFEGate on the right" width="640">
+
 Graduation project, led a six-person team. Python, PyTorch, YOLOv11n, FastAPI, Docker, Gradio.
 
 Hot-rolled steel moves faster than a person can inspect it, and its six defect classes split into two visual families, thin cracks and textured flaws, that one detector cannot serve equally. I designed a gate inside YOLOv11n with an edge-tuned branch and a texture-tuned branch, fused by channel attention and an additive residual that keeps gradients reaching the backbone.
@@ -24,6 +26,8 @@ Shipped as a Dockerized FastAPI service that takes an image and returns boxes wi
 
 ### Smart Voicemail Router: Egyptian Arabic voicemail triage
 
+<img src="https://raw.githubusercontent.com/hazemelerefey/smart-voicemail-router/master/assets/svr-banner-light.png" alt="Smart Voicemail Router banner" width="720">
+
 Build lead and architect, seven contributors. Whisper, LangGraph, MARBERTv2, FastAPI, React, PostgreSQL, Docker.
 
 Customer care in Egypt runs on dialect-heavy voicemail triaged by hand, and the routing decision cannot be audited. I built a self-hosted pipeline: Whisper large-v3 transcription, a LangGraph gate that verifies and repairs transcripts and escalates the uncertain ones, four MARBERTv2 classifiers for category, urgency, customer state and churn risk, a deterministic priority score, and routing by skill and live capacity.
@@ -35,6 +39,8 @@ Product: a bilingual console with full RTL, role-based access, audio encrypted a
 [Code](https://github.com/hazemelerefey/smart-voicemail-router)
 
 ### AZZAR: AI work orchestrator
+
+<img src="https://raw.githubusercontent.com/hazemelerefey/azzar-agent/master/docs/assets/feature-01-hero.png" alt="AZZAR AI work orchestrator" width="720">
 
 Owner and sole developer, pre-pilot. TypeScript, PostgreSQL, tRPC, multi-provider LLM, Docker.
 
